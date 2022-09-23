@@ -4,9 +4,9 @@ https://www.sphinx-doc.org/en/master/development/theming.html
 """
 from pathlib import Path
 
+from ._version import __version__
 from .footer import FOOTER
 from .navbar import NAVBAR_LEFT, NAVBAR_RIGHT
-from ._version import __version__
 
 
 def setup(app):
