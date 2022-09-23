@@ -26,10 +26,10 @@ author = 'Xanadu Inc.'
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 
-import xanadu_sphinx_theme
+import pennylane_sphinx_theme
 
 # The full version, including alpha/beta/rc tags.
-release = xanadu_sphinx_theme.__version__
+release = pennylane_sphinx_theme.__version__
 
 # The short X.Y version.
 version = re.match(r"^(\d+\.\d+)", release).expand(r"\1")

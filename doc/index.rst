@@ -80,4 +80,4 @@ License
    :caption: API
    :hidden:
 
-   api/xanadu_sphinx_theme
+   api/pennylane_sphinx_theme
