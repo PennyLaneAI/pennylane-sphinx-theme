@@ -32,4 +32,3 @@ def setup(app):
     for section in ["about", "links", "socials", "tagline"]:
         if f"footer_{section}" not in app.config["html_theme_options"]:
             app.config["html_theme_options"][f"footer_{section}"] = FOOTER[f"footer_{section}"]
-
