@@ -7,6 +7,9 @@ The **PennyLane Sphinx Theme** is a Sphinx theme used for open-source PennyLane
 software projects hosted on https://pennylane.ai. It extends the Xanadu Sphinx Theme
 with PennyLane-specific default settings and configurations.
 
+To update the PennyLane navigation bar (navbar) and footer, please see the files
+``pennylane_sphinx_theme/footer.py`` and ``pennylane_sphinx_theme/navbar.py``.
+
 For more details, please see the
 `Xanadu Sphinx Theme documentation <https://xanadu-sphinx-theme.readthedocs.io/en/latest/>`__.
 
@@ -64,7 +67,16 @@ Configuration
 .. configuration-start-inclusion-marker-do-not-remove
 
 The PennyLane Sphinx Theme supports the same configration options as
-the Xanadu Sphinx Theme.
+the Xanadu Sphinx Theme. It also provides the following additional
+configuration options:
+
+``navbar_active_link``
+    The link on the left-hand-side of the navbar that should be 'active'.
+    Active links denote to the user 'this is the page represented by the
+    navbar link', and are represented by an accented underline.
+
+    The value of this configuration option should be an integer, with ``0``
+    representing the first left-hand navbar link.
 
 For more details, please see the
 `Xanadu Sphinx Theme documentation <https://xanadu-sphinx-theme.readthedocs.io/en/latest/>`__.

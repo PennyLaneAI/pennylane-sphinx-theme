@@ -25,8 +25,8 @@ info = {
     "include_package_data": True,
     "name": "pennylane-sphinx-theme",
     "packages": find_packages(where="."),
-    "package_data": {"xanadu_sphinx_theme": ["static/*", "*.html", "theme.conf"]},
-    "provides": ["xanadu_sphinx_theme"],
+    "package_data": {"pennylane_sphinx_theme": ["static/*", "static/favicon/*", "*.html", "theme.conf"]},
+    "provides": ["pennylane_sphinx_theme"],
     "url": "https://github.com/XanaduAI/pennylane-sphinx-theme",
     "version": version,
 }
