@@ -6,6 +6,7 @@ from pathlib import Path
 
 from ._version import __version__
 
+
 def setup(app):
     """See https://www.sphinx-doc.org/en/master/extdev/appapi.html."""
     cwd = Path(__file__).resolve().parent
@@ -22,9 +23,7 @@ def setup(app):
     # set default footer sections
     for section in ["about", "links", "socials", "tagline"]:
         if f"footer_{section}" not in app.config["html_theme_options"]:
-            app.config["html_theme_options"][f"footer_{section}"] = FOOTER[
-                f"footer_{section}"
-            ]
+            app.config["html_theme_options"][f"footer_{section}"] = FOOTER[f"footer_{section}"]
 
 
 NAVBAR_LEFT = [
