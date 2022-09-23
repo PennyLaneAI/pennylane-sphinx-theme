@@ -4,6 +4,8 @@ https://www.sphinx-doc.org/en/master/development/theming.html
 """
 from pathlib import Path
 
+from xanadu_sphinx_theme import templates_dir
+
 from ._version import __version__
 from .footer import FOOTER
 from .navbar import NAVBAR_LEFT, NAVBAR_RIGHT
