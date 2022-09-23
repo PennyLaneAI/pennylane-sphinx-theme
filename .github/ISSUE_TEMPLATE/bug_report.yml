@@ -10,7 +10,7 @@ body:
       value: |
           ## Before posting a bug report
           Search existing GitHub issues to make sure the issue does not already exist:
-          https://github.com/XanaduAI/xanadu-sphinx-theme/issues
+          https://github.com/PennyLaneAI/pennylane-sphinx-theme/issues
 
           # Issue description
           Description of the issue - include code snippets in the Source code section below and screenshots if relevant.
@@ -35,7 +35,7 @@ body:
     attributes:
       label: Additional information
       description: |
-        Please provide any additional information here that might be necessary to reproduce the issue. This includes the XST version, system information, and any other relevant details about reproducibility (e.g., percentage of the time the bug reproduces).
+        Please provide any additional information here that might be necessary to reproduce the issue. This includes the PST version, system information, and any other relevant details about reproducibility (e.g., percentage of the time the bug reproduces).
   - type: textarea
     id: sourcecode
     attributes:
