@@ -1,4 +1,4 @@
 sphinx==4.5.0
 pillow==9.1.1
 sphinx-gallery==0.10.1
-xanadu-sphinx-theme
+git+https://github.com/XanaduAI/xanadu-sphinx-theme.git
