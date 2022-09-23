@@ -6,3 +6,4 @@ sphinx-copybutton
 sphinx-gallery==0.10.1
 git+https://github.com/XanaduAI/xanadu-sphinx-theme.git
 matplotlib
+jinja2==2.11.3
