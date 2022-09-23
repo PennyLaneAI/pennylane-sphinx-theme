@@ -55,7 +55,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = [pennylane_sphinx_theme.templates_dir()]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -89,21 +89,6 @@ pygments_style = "sphinx"
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
-
-
-# The name of an image file (relative to this directory) to use as a favicon of
-# the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
-# pixels large.
-# html_favicon = "_static/favicon.ico"
-
-# Custom sidebar templates, must be a dictionary that maps document names
-# to template names.
-html_sidebars = {
-    "**": [
-        "searchbox.html",
-        "globaltoc.html",
-    ]
-}
 
 
 # PennyLane theme options (see theme.conf for more information).

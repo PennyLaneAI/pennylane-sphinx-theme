@@ -22,7 +22,7 @@ Installation
 .. installation-start-inclusion-marker-do-not-remove
 
 The PennyLane Sphinx Theme requires Python 3.7 or later. The latest version of the
-XST can be installed directly from the GitHub repository using ``pip``:
+theme can be installed directly using ``pip``:
 
 .. code-block:: bash
 
@@ -42,18 +42,10 @@ Once installed, simply add or modify the following variables of your Sphinx
 
 .. code-block:: python
 
+    from pennylane_sphinx_theme import templates_dir
+    templates_path = [templates_dir()]
+
     html_theme = "pennylane"
-
-.. code-block:: python
-
-    html_sidebars = {
-        "**" : [
-            "searchbox.html",
-            "globaltoc.html",
-        ]
-    }
-
-.. code-block:: python
 
     html_theme_options = {
         "navbar_name": "Example Project",
