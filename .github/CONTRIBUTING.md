@@ -120,6 +120,6 @@ Before submitting a pull request, please make sure the following is done:
   before merging the pull request into the main branch. Alternatively, you can
   [grant us permission to make changes to your pull request branch](https://help.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork/).
 
-Thank you for contributing to the Xanadu Sphinx Theme!
+Thank you for contributing to the PennyLane Sphinx Theme!
 
 \- The PST team
