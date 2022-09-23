@@ -1,3 +1,7 @@
+"""
+This module contains the common PennyLane footer data.
+"""
+
 FOOTER = {
     "footer_about": {
         "title": "Xanadu",
