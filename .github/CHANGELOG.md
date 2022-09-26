@@ -4,7 +4,7 @@
 
 This release contains contributions from (in alphabetical order):
 
-# Release 0.3.0
+## Release 0.3.0
 
 ### New features since last release
 
