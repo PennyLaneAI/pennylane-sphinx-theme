@@ -9,7 +9,7 @@ FOOTER = {
         PennyLane is an open-source software framework for quantum
         machine learning, quantum chemistry and quantum computing 
         with the ability to run on all hardware.
-        It is maintained with :heart: by Xanadu.
+        It is maintained with ♥ by Xanadu.
         """,
     },
     "footer_links": [
