@@ -4,11 +4,12 @@ This module contains the common PennyLane footer data.
 
 FOOTER = {
     "footer_about": {
-        "title": "Xanadu",
+        "title": "PennyLane",
         "description": """\
-        Located in the heart of downtown Toronto, we've brought together
-        exceptional minds from around the world to build quantum computers
-        that are useful and available to people everywhere.
+        PennyLane is an open-source software framework for quantum
+        machine learning, quantum chemistry, and quantum computing, 
+        with the ability to run on all hardware.
+        Maintained with ❤️ by Xanadu.
         """,
     },
     "footer_links": [
@@ -46,31 +47,6 @@ FOOTER = {
             ],
         },
         {
-            "title": "Strawberry Fields",
-            "links": [
-                {
-                    "name": "Home",
-                    "href": "https://strawberryfields.ai/",
-                },
-                {
-                    "name": "Photonics",
-                    "href": "https://strawberryfields.ai/photonics",
-                },
-                {
-                    "name": "Demonstrations",
-                    "href": "https://strawberryfields.ai/photonics/demonstrations.html",
-                },
-                {
-                    "name": "Documentation",
-                    "href": "https://strawberryfields.readthedocs.io/",
-                },
-                {
-                    "name": "GitHub",
-                    "href": "https://github.com/XanaduAI/strawberryfields",
-                },
-            ],
-        },
-        {
             "title": "Xanadu",
             "links": [
                 {
@@ -96,15 +72,15 @@ FOOTER = {
         },
     ],
     "footer_socials": [
-        {"icon": "fab fa-twitter", "href": "https://twitter.com/xanaduai"},
-        {"icon": "fab fa-github", "href": "https://github.com/XanaduAI"},
+        {"icon": "fab fa-twitter", "href": "https://twitter.com/PennyLaneAI"},
+        {"icon": "fab fa-github", "href": "https://github.com/PennyLaneAI/pennylane"},
         {"icon": "fab fa-linkedin-in", "href": "https://linkedin.com/company/xanaduai/"},
         {"icon": "fab fa-discourse", "href": "https://discuss.pennylane.ai"},
         {
             "icon": "fab fa-slack",
-            "href": "https://u.strawberryfields.ai/slack",
+            "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
         },
-        {"icon": "fas fa-rss", "href": "https://xanadu.ai/blog"},
+        {"icon": "fas fa-rss", "href": "https://pennylane.ai/blog/"},
     ],
     "footer_tagline": {
         "text": "Stay updated with our newsletter",
