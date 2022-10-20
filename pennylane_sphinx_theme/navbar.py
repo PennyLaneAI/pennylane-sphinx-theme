@@ -27,6 +27,10 @@ NAVBAR_LEFT = [
         "name": "Blog",
         "href": "https://pennylane.ai/blog/",
     },
+    {
+        "name": "Code Camp",
+        "href": "https://pennylane.ai/codecamp/",  
+    },
 ]
 
 
