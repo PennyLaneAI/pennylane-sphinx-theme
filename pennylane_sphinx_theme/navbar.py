@@ -29,7 +29,7 @@ NAVBAR_LEFT = [
     },
     {
         "name": "Code Camp",
-        "href": "https://pennylane.ai/codecamp/",  
+        "href": "https://codecamp.xanadu.ai/",
     },
 ]
 
