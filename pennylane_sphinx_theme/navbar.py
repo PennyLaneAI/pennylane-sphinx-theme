@@ -27,6 +27,10 @@ NAVBAR_LEFT = [
         "name": "Blog",
         "href": "https://pennylane.ai/blog/",
     },
+    {
+        "name": "<i class='fas fa-campground'></i> Code Camp",
+        "href": "https://codecamp.xanadu.ai/",
+    },
 ]
 
 
