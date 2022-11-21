@@ -28,8 +28,8 @@ NAVBAR_LEFT = [
         "href": "https://pennylane.ai/blog/",
     },
     {
-        "name": "<i class='fas fa-campground'></i> Code Camp",
-        "href": "https://codecamp.xanadu.ai/",
+        "name": "QHack 2023",
+        "href": "https://qhack.ai/",
     },
 ]
 
