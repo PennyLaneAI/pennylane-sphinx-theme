@@ -4,7 +4,7 @@ This module contains the common PennyLane navigation bar data.
 
 NAVBAR_LEFT = [
     {
-        "name": "Quantum machine learning",
+        "name": "Learn",
         "href": "https://pennylane.ai/qml/",
     },
     {
