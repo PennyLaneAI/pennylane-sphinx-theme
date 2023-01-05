@@ -1,5 +1,9 @@
 ## Release 0.4.0 (development release)
 
+### Improvements
+
+- Bumped `wheel` to v0.38.1. [(#18)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/18)
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
