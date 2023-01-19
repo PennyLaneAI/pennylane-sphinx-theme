@@ -26,7 +26,7 @@ NAVBAR_LEFT = [
     {
         "name": "Blog",
         "href": "https://pennylane.ai/blog/",
-    }
+    },
 ]
 
 
