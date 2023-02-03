@@ -1,3 +1,9 @@
+## Release 0.3.8
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
 ## Release 0.3.7
 
 ### Improvements
