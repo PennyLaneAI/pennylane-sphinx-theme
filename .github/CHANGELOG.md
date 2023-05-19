@@ -9,10 +9,14 @@ This release contains contributions from (in alphabetical order):
 ### Improvements
 
 - Bumped `wheel` to v0.38.1. [(#18)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/18)
+- Remove deprecated `set-output` commands from workflow files.
+  [(#25)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/25)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+Vincent Michaud-Rioux
 
 ## Release 0.3.2 (current release)
 
