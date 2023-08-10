@@ -6,3 +6,4 @@ sphinx-copybutton
 sphinx-gallery==0.10.1
 xanadu-sphinx-theme==0.3.0
 matplotlib
+importlib-resources==5.12.0

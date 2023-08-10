@@ -10,6 +10,7 @@ requirements = [
     # The packages below are used to generate thumbnail images.
     "pillow",
     "sphinx-gallery",
+    "docutils<0.18",
 ]
 
 info = {
