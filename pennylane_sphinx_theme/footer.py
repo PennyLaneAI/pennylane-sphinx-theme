@@ -5,68 +5,121 @@ This module contains the common PennyLane footer data.
 FOOTER = {
     "footer_about": {
         "title": "PennyLane",
+        "icon": "_static/logo.png",
         "description": """\
         PennyLane is an open-source software framework for quantum
-        machine learning, quantum chemistry, and quantum computing, 
-        with the ability to run on all hardware.
-        Maintained with ❤️ by Xanadu.
+        machine learning, quantum chemistry, and quantum computing,
+        with the ability to run on all hardware. Built with ❤️ by
+        <a href="https://xanadu.ai">Xanadu</a>.
         """,
     },
+    "footer_policies": [
+        {
+            "text": "Privacy Policy",
+            "href": "https://pennylane.ai/privacy",
+        },
+        {
+            "text": "Terms of Service",
+            "href": "https://pennylane.ai/terms",
+        },
+        {
+            "text": "Cookie Policy",
+            "href": "https://pennylane.ai/cookies",
+        },
+        {
+            "text": "Code of Conduct",
+            "href": "https://pennylane.ai/conduct",
+        },
+    ],
     "footer_links": [
         {
-            "title": "PennyLane",
+            "title": "For researchers",
             "links": [
                 {
-                    "name": "Home",
-                    "href": "https://pennylane.ai/",
+                    "name": "Demos",
+                    "href": "https://pennylane.ai/qml/demonstrations",
+                },
+                {
+                    "name": "Datasets",
+                    "href": "https://pennylane.ai/datasets/",
                 },
                 {
                     "name": "Learn",
-                    "href": "https://pennylane.ai/qml",
+                    "href": "https://pennylane.ai/qml/",
                 },
                 {
-                    "name": "Demonstrations",
-                    "href": "https://pennylane.ai/qml/demonstrations.html",
+                    "name": "Videos",
+                    "href": "https://pennylane.ai/qml/videos",
                 },
                 {
                     "name": "Documentation",
                     "href": "https://docs.pennylane.ai/",
                 },
                 {
-                    "name": "GitHub",
-                    "href": "https://github.com/PennyLaneAI/pennylane",
-                },
-                {
-                    "name": "Twitter",
-                    "href": "https://twitter.com/pennylaneai",
-                },
-                {
-                    "name": "Blog",
-                    "href": "https://pennylane.ai/blog",
+                    "name": "Education",
+                    "href": "https://pennylane.ai/education/",
                 },
             ],
         },
         {
-            "title": "Xanadu",
+            "title": "For learners",
             "links": [
                 {
-                    "name": "Home",
-                    "href": "https://xanadu.ai/",
-                },
-                {"name": "About", "href": "https://xanadu.ai/about/"},
-                {
-                    "name": "Hardware",
-                    "href": "https://xanadu.ai/photonics",
-                },
-                {"name": "Careers", "href": "https://xanadu.ai/careers/"},
-                {"name": "Cloud", "href": "https://cloud.xanadu.ai"},
-                {
-                    "name": "Forum",
-                    "href": "https://discuss.pennylane.ai/",
+                    "name": "Learn",
+                    "href": "https://pennylane.ai/qml/",
                 },
                 {
-                    "name": "Blog",
-                    "href": "https://xanadu.ai/blog",
+                    "name": "Codebook",
+                    "href": "https://pennylane.ai/",
+                },
+                {
+                    "name": "Education",
+                    "href": "https://pennylane.ai/education/",
+                },
+                {
+                    "name": "Videos",
+                    "href": "https://pennylane.ai/qml/videos",
+                },
+                {
+                    "name": "Demos",
+                    "href": "https://pennylane.ai/qml/demonstrations",
+                },
+                {
+                    "name": "Glossary",
+                    "href": "https://pennylane.ai/glossary",
+                },
+            ],
+        },
+        {
+            "title": "For developers",
+            "links": [
+                {
+                    "name": "Documentation",
+                    "href": "https://docs.pennylane.ai/",
+                },
+                {
+                    "name": "API",
+                    "href": "https://docs.pennylane.ai/en/stable/code/qml.html",
+                },
+                {
+                    "name": "GitHub",
+                    "href": "https://github.com/PennyLaneAI/pennylane",
+                },
+                {
+                    "name": "Datasets",
+                    "href": "https://pennylane.ai/datasets/",
+                },
+                {
+                    "name": "Demos",
+                    "href": "https://pennylane.ai/qml/demonstrations",
+                },
+                {
+                    "name": "Devices",
+                    "href": "https://pennylane.ai/plugins/",
+                },
+                {
+                    "name": "Compilation",
+                    "href": "https://docs.pennylane.ai/projects/catalyst/en/latest/",
                 },
             ],
         },
@@ -82,8 +135,14 @@ FOOTER = {
         },
         {"icon": "fas fa-rss", "href": "https://pennylane.ai/blog/"},
     ],
-    "footer_tagline": {
-        "text": "Stay updated with our newsletter",
-        "href": "https://xanadu.us17.list-manage.com/subscribe?u=725f07a1d1a4337416c3129fd&id=294b062630",
-    },
+    "footer_taglines": [
+        {
+            "text": "Stay updated with our newsletter",
+            "href": "https://xanadu.us17.list-manage.com/subscribe?u=725f07a1d1a4337416c3129fd&id=294b062630",
+        },
+        {
+            "text": "Get involved with PennyLane",
+            "href": "https://pennylane.ai",
+        },
+    ]
 }

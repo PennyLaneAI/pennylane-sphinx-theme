@@ -31,6 +31,6 @@ def setup(app):
         app.config["html_theme_options"]["navbar_right_links"] = NAVBAR_RIGHT
 
     # set default footer sections
-    for section in ["about", "links", "socials", "tagline"]:
+    for section in ["about", "policies", "links", "socials", "taglines"]:
         if f"footer_{section}" not in app.config["html_theme_options"]:
             app.config["html_theme_options"][f"footer_{section}"] = FOOTER[f"footer_{section}"]
