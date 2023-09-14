@@ -98,7 +98,7 @@ html_theme_options = {
         "Any extra copyrights can be added here."
     ],
     "toc_overview": True,
-    "toc_global": True,
+    "toc_global": False,
     "toc_hover": False,
     "relations": True,
     "navbar_active_link": 4
