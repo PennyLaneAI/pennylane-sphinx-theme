@@ -3,7 +3,7 @@
 ### Improvements
 
 * Updated the navbar and footer configuration and styles to match the PennyLane website.
-  [(#XXX)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/XXX)
+  [(#29)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/29)
 
 ### Contributors
 
