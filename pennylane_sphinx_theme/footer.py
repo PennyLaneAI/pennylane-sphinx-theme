@@ -159,5 +159,5 @@ FOOTER = {
             "text": "Get involved with PennyLane",
             "href": "https://pennylane.ai",
         },
-    ]
+    ],
 }

@@ -40,7 +40,7 @@ NAVBAR_LEFT = [
                 "name": "FAQ",
                 "href": "https://pennylane.ai/faq/",
             },
-        ]
+        ],
     },
     {
         "name": "Documentation",
@@ -65,7 +65,7 @@ NAVBAR_LEFT = [
                 "href": "https://docs.pennylane.ai/projects/catalyst/",
                 "external": True,
             },
-        ]
+        ],
     },
     {
         "name": "Datasets",
