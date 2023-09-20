@@ -86,7 +86,7 @@ FOOTER = {
                 },
                 {
                     "name": "Glossary",
-                    "href": "https://pennylane.ai/glossary",
+                    "href": "https://pennylane.ai/qml/glossary/",
                 },
             ],
         },
