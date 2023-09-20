@@ -124,16 +124,31 @@ FOOTER = {
             ],
         },
     ],
-    "footer_socials": [
-        {"icon": "fab fa-twitter", "href": "https://twitter.com/PennyLaneAI"},
-        {"icon": "fab fa-github", "href": "https://github.com/PennyLaneAI/pennylane"},
-        {"icon": "fab fa-linkedin-in", "href": "https://linkedin.com/company/xanaduai/"},
-        {"icon": "fab fa-discourse", "href": "https://discuss.pennylane.ai"},
+    "footer_social_icons": [
         {
-            "icon": "fab fa-slack",
+            "icon": "bx bxl-twitter",
+            "href": "https://twitter.com/PennyLaneAI",
+        },
+        {
+            "icon": "bx bxl-github",
+            "href": "https://github.com/PennyLaneAI/pennylane",
+        },
+        {
+            "icon": "bx bxl-linkedin",
+            "href": "https://linkedin.com/company/xanaduai/",
+        },
+        {
+            "icon": "bx bxl-discourse",
+            "href": "https://discuss.pennylane.ai",
+        },
+        {
+            "icon": "bx bxl-slack",
             "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
         },
-        {"icon": "fas fa-rss", "href": "https://pennylane.ai/blog/"},
+        {
+            "icon": "bx bx-rss",
+            "href": "https://pennylane.ai/blog/",
+        },
     ],
     "footer_taglines": [
         {

@@ -99,9 +99,7 @@ html_theme_options = {
     ],
     "toc_overview": True,
     "toc_global": True,
-    "toc_hover": False,
-    "relations": True,
-    "navbar_active_link": 4
+    "relations": True
 }
 
 

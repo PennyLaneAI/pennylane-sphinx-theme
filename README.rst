@@ -60,18 +60,7 @@ Configuration
 .. configuration-start-inclusion-marker-do-not-remove
 
 The PennyLane Sphinx Theme supports the same configration options as
-the Xanadu Sphinx Theme. It also provides the following additional
-configuration options:
-
-``navbar_active_link``
-    The link on the left-hand-side of the navbar that should be 'active'.
-    Active links denote to the user 'this is the page represented by the
-    navbar link', and are represented by an accented underline.
-
-    The value of this configuration option should be an integer, with ``0``
-    representing the first left-hand navbar link.
-
-For more details, please see the
+the Xanadu Sphinx Theme. For more details, please see the
 `Xanadu Sphinx Theme documentation <https://xanadu-sphinx-theme.readthedocs.io/en/latest/>`__.
 
 .. configuration-end-inclusion-marker-do-not-remove
