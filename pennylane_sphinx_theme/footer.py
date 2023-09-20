@@ -70,7 +70,7 @@ FOOTER = {
                 },
                 {
                     "name": "Codebook",
-                    "href": "https://pennylane.ai/",
+                    "href": "https://codebook.xanadu.ai/",
                 },
                 {
                     "name": "Education",
