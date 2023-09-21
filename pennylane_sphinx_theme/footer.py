@@ -146,6 +146,10 @@ FOOTER = {
             "href": "https://discuss.pennylane.ai",
         },
         {
+            "icon": "bx bxl-youtube",
+            "href": "https://www.youtube.com/@pennylaneai/",
+        },
+        {
             "icon": "bx bxl-slack",
             "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
         },
