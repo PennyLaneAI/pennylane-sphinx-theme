@@ -19,7 +19,7 @@ import re
 # -- Project information -----------------------------------------------------
 
 project = 'PennyLane Sphinx Theme'
-copyright = '2022, Xanadu Quantum Technologies'
+copyright = '2023 | Xanadu | All rights reserved'
 author = 'Xanadu Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -95,13 +95,11 @@ todo_include_todos = False
 html_theme_options = {
     "navbar_name": "PennyLane Sphinx Theme",
     "extra_copyrights": [
-        "Any extra copyrights can be added here."
+        "TensorFlow, the TensorFlow logo and any related marks are trademarks of Google Inc."
     ],
     "toc_overview": True,
     "toc_global": True,
-    "toc_hover": False,
-    "relations": True,
-    "navbar_active_link": 4
+    "relations": True
 }
 
 

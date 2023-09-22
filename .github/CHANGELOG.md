@@ -1,8 +1,15 @@
-## Release 0.4.0 (development release)
+## Release 0.4.0 (current release)
+
+### Improvements
+
+* Updated the navbar and footer configuration and styles to match the PennyLane website.
+  [(#29)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/29)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
 
 ## Release 0.3.8
 
