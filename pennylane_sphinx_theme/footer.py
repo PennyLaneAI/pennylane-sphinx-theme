@@ -5,7 +5,7 @@ This module contains the common PennyLane footer data.
 FOOTER = {
     "footer_about": {
         "title": "PennyLane",
-        "icon": "_static/logo.png",
+        "icon": "https://assets.cloud.pennylane.ai/docs/pennylane-logo.png",
         "description": """\
         PennyLane is an open-source software framework for quantum
         machine learning, quantum chemistry, and quantum computing,

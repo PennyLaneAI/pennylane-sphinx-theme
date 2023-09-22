@@ -1,10 +1,17 @@
-## Release 0.5.0 (development release)
+## Release 0.4.1 (current release)
+
+### Bug Fixes
+
+* Updated the paths to the images in the navbar and footer to a pair of hosted assets.
+  [(#30)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/30)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.4.0 (current release)
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.4.0
 
 ### Improvements
 
