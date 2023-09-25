@@ -49,7 +49,6 @@ NAVBAR_LEFT = [
             {
                 "name": "API",
                 "href": "https://docs.pennylane.ai/en/stable/code/qml.html",
-                "external": True,
             },
             {
                 "name": "Devices",
@@ -63,7 +62,6 @@ NAVBAR_LEFT = [
             {
                 "name": "Catalyst",
                 "href": "https://docs.pennylane.ai/projects/catalyst/",
-                "external": True,
             },
         ],
     },

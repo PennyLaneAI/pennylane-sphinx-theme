@@ -10,6 +10,9 @@
 * Removed a link to the PennyLane FAQ page from the footer.
   [(#33)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/33)
 
+* Removed the "external" icon from the API and Catalyst links in the navbar.
+  [(#33)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/33)
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
