@@ -1,10 +1,22 @@
-## Release 0.5.0 (development release)
+## Release 0.4.2 (current release)
+
+### Improvements
+
+* Added a link to the PennyLane Challenges page in the navbar and footer.
+  [(#33)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/33)
+
+### Bug Fixes
+
+* Removed a link to the PennyLane FAQ page from the footer.
+  [(#33)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/33)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.4.1 (current release)
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.4.1
 
 ### Bug Fixes
 
