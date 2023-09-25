@@ -1,4 +1,9 @@
-## Release 0.5.0 (development release)
+## Release 0.4.3 (current release)
+
+### Improvements
+
+* Added links to the PennyLane Performance page in the navbar and footer.
+  [(#35)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/35)
 
 ### Contributors
 
