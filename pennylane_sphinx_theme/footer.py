@@ -44,6 +44,10 @@ FOOTER = {
                     "href": "https://pennylane.ai/datasets/",
                 },
                 {
+                    "name": "Performance",
+                    "href": "https://pennylane.ai/performance/",
+                },
+                {
                     "name": "Learn",
                     "href": "https://pennylane.ai/qml/",
                 },
@@ -116,6 +120,10 @@ FOOTER = {
                 {
                     "name": "Demos",
                     "href": "https://pennylane.ai/qml/demonstrations",
+                },
+                {
+                    "name": "Performance",
+                    "href": "https://pennylane.ai/performance/",
                 },
                 {
                     "name": "Devices",

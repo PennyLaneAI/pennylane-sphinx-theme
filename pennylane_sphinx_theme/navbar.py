@@ -32,10 +32,10 @@ NAVBAR_LEFT = [
                 "name": "Education",
                 "href": "https://pennylane.ai/education/",
             },
-            # {
-            #     "name": "Performance",
-            #     "href": "https://pennylane.ai/performance/",
-            # },
+            {
+                "name": "Performance",
+                "href": "https://pennylane.ai/performance/",
+            },
             {
                 "name": "FAQ",
                 "href": "https://pennylane.ai/faq/",
