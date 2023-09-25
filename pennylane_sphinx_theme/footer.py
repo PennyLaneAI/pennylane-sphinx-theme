@@ -81,16 +81,16 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/videos",
                 },
                 {
+                    "name": "Challenges",
+                    "href": "https://pennylane.ai/challenges/",
+                },
+                {
                     "name": "Demos",
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
                     "name": "Glossary",
                     "href": "https://pennylane.ai/qml/glossary/",
-                },
-                {
-                    "name": "FAQ",
-                    "href": "https://pennylane.ai/faq/",
                 },
             ],
         },

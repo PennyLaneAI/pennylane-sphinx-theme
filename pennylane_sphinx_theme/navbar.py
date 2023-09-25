@@ -16,10 +16,10 @@ NAVBAR_LEFT = [
                 "href": "https://codebook.xanadu.ai/",
                 "external": True,
             },
-            # {
-            #     "name": "Challenges",
-            #     "href": "https://pennylane.ai/challenges/",
-            # },
+            {
+                "name": "Challenges",
+                "href": "https://pennylane.ai/challenges/",
+            },
             {
                 "name": "Videos",
                 "href": "https://pennylane.ai/qml/videos/",
@@ -49,7 +49,6 @@ NAVBAR_LEFT = [
             {
                 "name": "API",
                 "href": "https://docs.pennylane.ai/en/stable/code/qml.html",
-                "external": True,
             },
             {
                 "name": "Devices",
@@ -63,7 +62,6 @@ NAVBAR_LEFT = [
             {
                 "name": "Catalyst",
                 "href": "https://docs.pennylane.ai/projects/catalyst/",
-                "external": True,
             },
         ],
     },
