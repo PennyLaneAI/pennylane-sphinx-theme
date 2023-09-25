@@ -16,10 +16,10 @@ NAVBAR_LEFT = [
                 "href": "https://codebook.xanadu.ai/",
                 "external": True,
             },
-            # {
-            #     "name": "Challenges",
-            #     "href": "https://pennylane.ai/challenges/",
-            # },
+            {
+                "name": "Challenges",
+                "href": "https://pennylane.ai/challenges/",
+            },
             {
                 "name": "Videos",
                 "href": "https://pennylane.ai/qml/videos/",
