@@ -21,7 +21,7 @@ Installation
 
 .. installation-start-inclusion-marker-do-not-remove
 
-The PennyLane Sphinx Theme requires Python 3.8 or later. The latest version of the
+The PennyLane Sphinx Theme requires Python 3.7 or later. The latest version of the
 theme can be installed directly using ``pip``:
 
 .. code-block:: bash

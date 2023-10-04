@@ -3,7 +3,6 @@
 ### Improvements
 
 * Bumped `pillow` to v10.0.1. [(#37)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/37)
-* Dropped support for Python 3.7. [(#37)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/37)
 
 ### Contributors
 
