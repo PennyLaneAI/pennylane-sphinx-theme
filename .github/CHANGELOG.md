@@ -1,8 +1,14 @@
 ## Release 0.5.0 (development release)
 
+### Improvements
+
+* Bumped `pillow` to v10.0.1. [(#37)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/37)
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
 
 ## Release 0.4.3 (current release)
 
@@ -14,6 +20,8 @@ This release contains contributions from (in alphabetical order):
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
 
 ## Release 0.4.2 (current release)
 
@@ -72,8 +80,8 @@ This release contains contributions from (in alphabetical order):
 
 ### Improvements
 
-- Bumped `wheel` to v0.38.1. [(#18)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/18)
-- Remove deprecated `set-output` commands from workflow files.
+* Bumped `wheel` to v0.38.1. [(#18)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/18)
+* Remove deprecated `set-output` commands from workflow files.
   [(#25)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/25)
 
 ### Contributors
@@ -86,13 +94,13 @@ Vincent Michaud-Rioux
 
 ### Improvements
 
-- Minor changes and bugfixes.
+* Minor changes and bugfixes.
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-[Josh Izaac](https://github.com/josh146)
+[Josh Izaac](https://github.com/josh146).
 
 ## Release 0.3.0
 
@@ -104,4 +112,4 @@ This release contains contributions from (in alphabetical order):
 
 This release contains contributions from (in alphabetical order):
 
-[Josh Izaac](https://github.com/josh146)
+[Josh Izaac](https://github.com/josh146).
