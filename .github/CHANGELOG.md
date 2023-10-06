@@ -1,8 +1,10 @@
-## Release 0.5.0 (development release)
+## Release 0.5.0 (current release)
 
 ### Improvements
 
 * Bumped `pillow` to v10.0.1. [(#37)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/37)
+
+* Bumped the XST version to v0.5.0. [(#40)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/40)
 
 ### Contributors
 
@@ -10,7 +12,7 @@ This release contains contributions from (in alphabetical order):
 
 [Mikhail Andrenkov](https://github.com/Mandrenkov).
 
-## Release 0.4.3 (current release)
+## Release 0.4.3
 
 ### Improvements
 
@@ -23,7 +25,7 @@ This release contains contributions from (in alphabetical order):
 
 [Mikhail Andrenkov](https://github.com/Mandrenkov).
 
-## Release 0.4.2 (current release)
+## Release 0.4.2
 
 ### Improvements
 
