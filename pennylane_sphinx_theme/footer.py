@@ -138,30 +138,37 @@ FOOTER = {
     ],
     "footer_social_icons": [
         {
+            "name": "Twitter",
             "icon": "bx bxl-twitter",
             "href": "https://twitter.com/PennyLaneAI",
         },
         {
+            "name": "GitHub",
             "icon": "bx bxl-github",
             "href": "https://github.com/PennyLaneAI/pennylane",
         },
         {
+            "name": "LinkedIn",
             "icon": "bx bxl-linkedin",
             "href": "https://linkedin.com/company/xanaduai/",
         },
         {
+            "name": "Discourse",
             "icon": "bx bxl-discourse",
             "href": "https://discuss.pennylane.ai",
         },
         {
+            "name": "YouTube",
             "icon": "bx bxl-youtube",
             "href": "https://www.youtube.com/@pennylaneai/",
         },
         {
+            "name": "Slack",
             "icon": "bx bxl-slack",
             "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
         },
         {
+            "name": "RSS",
             "icon": "bx bx-rss",
             "href": "https://pennylane.ai/blog/",
         },
