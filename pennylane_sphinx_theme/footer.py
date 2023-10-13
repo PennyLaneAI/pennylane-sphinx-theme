@@ -148,6 +148,11 @@ FOOTER = {
             "href": "https://github.com/PennyLaneAI/pennylane",
         },
         {
+            "name": "Discord",
+            "icon": "bx bxl-discord",
+            "href": "https://discord.com/invite/paYuHUA5hE",
+        },
+        {
             "name": "LinkedIn",
             "icon": "bx bxl-linkedin",
             "href": "https://linkedin.com/company/xanaduai/",
