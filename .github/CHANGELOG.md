@@ -2,7 +2,7 @@
 
 ### Bug Fixes
 
-* Fixed the Python package version. [(#41)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/41)
+* Updated the Python package version to v0.5.1. [(#41)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/41)
 
 ### Contributors
 
