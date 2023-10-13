@@ -1,15 +1,3 @@
-## Release 0.5.1 (current release)
-
-### Bug Fixes
-
-* Updated the Python package version to v0.5.1. [(#41)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/41)
-
-### Contributors
-
-This release contains contributions from (in alphabetical order):
-
-[Mikhail Andrenkov](https://github.com/Mandrenkov).
-
 ## Release 0.5.0 (current release)
 
 ### Improvements
