@@ -1,5 +1,4 @@
 sphinx==4.5.0
 pillow==10.0.1
 sphinx-gallery==0.10.1
-# TODO: Replace this requirement with a versioned release.
-xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme@sc-46517-accessibility-improvements
+xanadu-sphinx-theme==0.5.0
