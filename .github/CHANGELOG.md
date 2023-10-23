@@ -1,10 +1,17 @@
-## Release 0.6.0 (development release)
+## Release 0.5.1 (current release)
+
+### Bug Fixes
+
+* Fixed the Discord link in the footer.
+  [(#43)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/43)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.5.0 (current release)
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.5.0
 
 ### Improvements
 
