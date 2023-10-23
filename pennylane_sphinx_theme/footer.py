@@ -150,7 +150,7 @@ FOOTER = {
         {
             "name": "Discord",
             "icon": "bx bxl-discord",
-            "href": "https://discord.gg/gnySM3nrN3",
+            "href": "https://discord.com/invite/gnySM3nrN3",
         },
         {
             "name": "LinkedIn",
