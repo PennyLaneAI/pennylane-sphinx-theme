@@ -1,10 +1,17 @@
-## Release 0.6.0 (development release)
+## Release 0.5.2 (current release)
+
+### Bug Fixes
+
+* Removed version constraints from `docutils` in `setup.py`.
+  [(#45)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/45)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.5.1 (current release)
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.5.1
 
 ### Bug Fixes
 
