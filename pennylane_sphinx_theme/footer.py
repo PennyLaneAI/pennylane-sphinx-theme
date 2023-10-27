@@ -37,7 +37,7 @@ FOOTER = {
             "links": [
                 {
                     "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations",
+                    "href": "https://pennylane.ai/qml/demonstrations/",
                 },
                 {
                     "name": "Datasets",
@@ -90,7 +90,7 @@ FOOTER = {
                 },
                 {
                     "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations",
+                    "href": "https://pennylane.ai/qml/demonstrations/",
                 },
                 {
                     "name": "Glossary",
@@ -119,7 +119,7 @@ FOOTER = {
                 },
                 {
                     "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations",
+                    "href": "https://pennylane.ai/qml/demonstrations/",
                 },
                 {
                     "name": "Performance",

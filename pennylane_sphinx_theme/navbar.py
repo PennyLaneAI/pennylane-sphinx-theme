@@ -9,7 +9,7 @@ NAVBAR_LEFT = [
         "dropdown": [
             {
                 "name": "Demos",
-                "href": "https://pennylane.ai/qml/",
+                "href": "https://pennylane.ai/qml/demonstrations/",
             },
             {
                 "name": "Codebook",
