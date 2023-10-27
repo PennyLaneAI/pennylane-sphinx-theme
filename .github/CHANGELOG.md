@@ -1,10 +1,17 @@
-## Release 0.6.0 (development release)
+## Release 0.5.3 (current release)
+
+### Bug Fixes
+
+* Fixed the 'Demos' link in the navbar.
+  [(#47)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/47)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.5.2 (current release)
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.5.2
 
 ### Bug Fixes
 
