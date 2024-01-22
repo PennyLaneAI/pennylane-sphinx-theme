@@ -3,6 +3,11 @@ m2r2
 matplotlib==3.5.3
 pillow==10.0.1
 sphinx==4.5.0
+sphinxcontrib-applehelp==1.0.4
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-htmlhelp==2.0.1
+sphinxcontrib-serializinghtml==1.1.5
 sphinx-copybutton
 sphinx-gallery==0.10.1
 xanadu-sphinx-theme==0.5.0
