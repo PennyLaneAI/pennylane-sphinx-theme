@@ -1,8 +1,15 @@
-## Release 0.6.0 (development release)
+## Release 0.5.4 (development release)
+
+### Improvements
+
+* Added a link to navbar to the PennyLane Get Involved page.
+  [(#49)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/49)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Alan Martin](https://github.com/alan-emartin).
 
 ## Release 0.5.3 (current release)
 

@@ -66,6 +66,10 @@ NAVBAR_LEFT = [
         ],
     },
     {
+        "name": "Get involved",
+        "href": "https://pennylane.ai/get-involved/",
+    },
+    {
         "name": "Datasets",
         "href": "https://pennylane.ai/datasets/",
     },
