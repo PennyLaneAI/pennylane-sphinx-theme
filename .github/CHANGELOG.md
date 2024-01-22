@@ -1,4 +1,4 @@
-## Release 0.5.4 (development release)
+## Release 0.5.4 (current release)
 
 ### Improvements
 
@@ -11,7 +11,7 @@ This release contains contributions from (in alphabetical order):
 
 [Alan Martin](https://github.com/alan-emartin).
 
-## Release 0.5.3 (current release)
+## Release 0.5.3
 
 ### Bug Fixes
 
@@ -144,7 +144,7 @@ This release contains contributions from (in alphabetical order):
 
 Vincent Michaud-Rioux
 
-## Release 0.3.2 (current release)
+## Release 0.3.2
 
 ### Improvements
 
