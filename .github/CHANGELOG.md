@@ -3,7 +3,7 @@
 ### Improvements
 
 * Added a link to navbar and footer for the PennyLane Features page.
-  [(#54)]([https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/49](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/54))
+  [(#54)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/49)
 
 ### Contributors
 
