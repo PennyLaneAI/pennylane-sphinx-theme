@@ -29,6 +29,10 @@ NAVBAR_LEFT = [
                 "href": "https://pennylane.ai/qml/glossary/",
             },
             {
+                "name": "Features",
+                "href": "https://pennylane.ai/features/",
+            },
+            {
                 "name": "Education",
                 "href": "https://pennylane.ai/education/",
             },
