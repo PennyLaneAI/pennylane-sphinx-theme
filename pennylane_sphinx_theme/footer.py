@@ -36,6 +36,10 @@ FOOTER = {
             "title": "For researchers",
             "links": [
                 {
+                    "name": "Features",
+                    "href": "https://pennylane.ai/features/",
+                },
+                {
                     "name": "Demos",
                     "href": "https://pennylane.ai/qml/demonstrations/",
                 },
@@ -101,6 +105,10 @@ FOOTER = {
         {
             "title": "For developers",
             "links": [
+                {
+                    "name": "Features",
+                    "href": "https://pennylane.ai/features/",
+                },
                 {
                     "name": "Documentation",
                     "href": "https://docs.pennylane.ai/",
