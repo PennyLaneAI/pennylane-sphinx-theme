@@ -2,7 +2,7 @@
 
 ### Contributors
 
-This release contains contributions from (in alphabetical order): [Trigger CI]
+This release contains contributions from (in alphabetical order):
 
 ## Release 0.5.5 (current release)
 
