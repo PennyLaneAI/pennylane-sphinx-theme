@@ -1,4 +1,4 @@
-## Release 0.6.0 (development release)
+## Release 0.6.0 (current release)
 
 ### Improvements
 
@@ -11,7 +11,7 @@ This release contains contributions from (in alphabetical order):
 
 [Lucas Silbernagel](https://github.com/LucasSilbernagel).
 
-## Release 0.5.4 (current release)
+## Release 0.5.4
 
 ### Improvements
 
