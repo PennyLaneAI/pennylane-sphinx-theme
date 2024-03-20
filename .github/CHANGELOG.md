@@ -4,7 +4,20 @@
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.5.4 (current release)
+## Release 0.5.5 (current release)
+
+### Improvements
+
+* Added a link to navbar and footer for the PennyLane Features page.
+  [(#54)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/49)
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Lucas Silbernagel](https://github.com/LucasSilbernagel).
+
+## Release 0.5.4
 
 ### Improvements
 
