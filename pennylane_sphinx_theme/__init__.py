@@ -2,6 +2,7 @@
 This module registers the PennyLane Sphinx Theme. For more information, see
 https://www.sphinx-doc.org/en/master/development/theming.html
 """
+
 from pathlib import Path
 
 from xanadu_sphinx_theme import templates_dir
