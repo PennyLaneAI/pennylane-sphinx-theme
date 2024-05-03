@@ -4,7 +4,20 @@
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.5.5 (current release)
+## Release 0.5.6 (current release)
+
+### Improvements
+
+* Update the Codebook links in the navbar and footer to use the new Codebook URLs.
+  [(#60)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/60)
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Andrew Gardhouse](https://github.com/AndrewGardhouse).
+
+## Release 0.5.5
 
 ### Improvements
 
