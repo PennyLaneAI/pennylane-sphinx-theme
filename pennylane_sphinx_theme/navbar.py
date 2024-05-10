@@ -14,7 +14,6 @@ NAVBAR_LEFT = [
             {
                 "name": "Codebook",
                 "href": "https://pennylane.ai/codebook/",
-                "external": True,
             },
             {
                 "name": "Challenges",
