@@ -13,7 +13,7 @@ NAVBAR_LEFT = [
             },
             {
                 "name": "Codebook",
-                "href": "https://codebook.xanadu.ai/",
+                "href": "https://pennylane.ai/codebook/",
                 "external": True,
             },
             {
