@@ -9,7 +9,7 @@ This release contains contributions from (in alphabetical order):
 ### Improvements
 
 * Update the Codebook link in the navbar to not be treated as external.
-  <!-- [(#60)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/60) -->
+  [(#63)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/63)
 
 ### Contributors
 
