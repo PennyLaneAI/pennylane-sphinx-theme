@@ -180,11 +180,6 @@ FOOTER = {
             "icon": "bx bxl-slack",
             "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
         },
-        {
-            "name": "RSS",
-            "icon": "bx bx-rss",
-            "href": "https://pennylane.ai/blog/",
-        },
     ],
     "footer_taglines": [
         {
