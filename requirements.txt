@@ -2,3 +2,4 @@ sphinx==4.5.0
 pillow==10.3.0
 sphinx-gallery==0.10.1
 xanadu-sphinx-theme==0.5.0
+numpy==1.26.4
