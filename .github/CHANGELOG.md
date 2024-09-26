@@ -1,10 +1,17 @@
-## Release 0.6.0 (development release)
+## Release 0.5.8 (current release)
+
+### Improvements
+
+* Removed the RSS feed icon from the footer.
+  [(#65)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/65)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.5.7 (current release)
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+## Release 0.5.7
 
 ### Improvements
 
