@@ -2,7 +2,7 @@
 
 ### Improvements
 
-* Removed the rss feed icon from the footer
+* Removed the RSS feed icon from the footer.
   [(#65)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/65)
 
 ### Contributors
