@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 with open("pennylane_sphinx_theme/_version.py") as f:
     version = f.readlines()[-1].split()[-1].strip("\"'")
@@ -6,7 +6,7 @@ with open("pennylane_sphinx_theme/_version.py") as f:
 
 requirements = [
     "sphinx",
-    "xanadu-sphinx-theme~=0.5.0",
+    "xanadu-sphinx-theme~=0.6.0",
     # The packages below are used to generate thumbnail images.
     "pillow",
     "sphinx-gallery",
@@ -45,6 +45,8 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Topic :: Documentation",
     "Topic :: Documentation :: Sphinx",
     "Topic :: Software Development",
