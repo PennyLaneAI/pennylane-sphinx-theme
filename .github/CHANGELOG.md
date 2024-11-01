@@ -2,7 +2,7 @@
 
 ### Improvements
 
-* Update footer contents - Add Research page link and change `Education` label to `Teach`
+* Update navbar & footer contents to be more researcher focused.
   [(#68)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/68)
 
 
