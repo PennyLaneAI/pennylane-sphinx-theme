@@ -10,6 +10,8 @@
 
 This release contains contributions from (in alphabetical order):
 
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
 ## Release 0.5.8 (current release)
 
 ### Improvements
