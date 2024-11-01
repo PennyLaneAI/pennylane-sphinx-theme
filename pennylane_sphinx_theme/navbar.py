@@ -7,29 +7,29 @@ NAVBAR_LEFT = [
         "name": "Why PennyLane",
         "href": "https://pennylane.ai/research",
         "dropdown": [
-            { 
-                "name": "Features", 
-                "href": "https://pennylane.ai/features" 
+            {
+                "name": "Features",
+                "href": "https://pennylane.ai/features",
             },
-            { 
-                "name": "Demos", 
-                "href": "https://pennylane.ai/qml/demonstrations" 
+            {
+                "name": "Demos",
+                "href": "https://pennylane.ai/qml/demonstrations",
             },
-            { 
-                "name": "Datasets", 
-                "href": "https://pennylane.ai/datasets" 
+            {
+                "name": "Datasets",
+                "href": "https://pennylane.ai/datasets",
             },
-            { 
-                "name": "Performance", 
-                "href": "https://pennylane.ai/performance" 
+            {
+                "name": "Performance",
+                "href": "https://pennylane.ai/performance",
             },
-            { 
-                "name": "Devices", 
-                "href": "https://pennylane.ai/plugins" 
+            {
+                "name": "Devices",
+                "href": "https://pennylane.ai/plugins",
             },
-            { 
-                "name": "Teach", 
-                "href": "https://pennylane.ai/education" 
+            {
+                "name": "Teach",
+                "href": "https://pennylane.ai/education",
             },
         ],
     },
