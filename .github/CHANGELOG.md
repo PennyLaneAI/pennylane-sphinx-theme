@@ -1,4 +1,10 @@
-## Release 0.6.0 (development release)
+## Release 0.5.9 (development release)
+
+### Improvements
+
+* Update footer contents - Add Research page link and change `Education` label to `Teach`
+  [(#68)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/68)
+
 
 ### Contributors
 
