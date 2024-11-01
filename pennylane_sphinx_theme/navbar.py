@@ -66,7 +66,7 @@ NAVBAR_LEFT = [
         "dropdown": [
             {
                 "name": "How-to demos",
-                "href": "https://pennylane.ai/qml/demonstrations#how-to",
+                "href": "https://pennylane.ai/search/?contentType=DEMO&categories=how-to&sort=publication_date",
             },
             {
                 "name": "Development guide",
