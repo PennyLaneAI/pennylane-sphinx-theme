@@ -89,7 +89,7 @@ NAVBAR_LEFT = [
     },
     {
         "name": "Ecosystem",
-        "href": "/get-involved",
+        "href": "https://pennylane.ai/get-involved",
         "dropdown": [
             {
                 "name": "Blog",
