@@ -125,6 +125,7 @@ NAVBAR_LEFT = [
 NAVBAR_RIGHT = [
     {
         "name": "Install",
-        "href": "https://pennylane.ai/instal",
+        "href": "https://pennylane.ai/install",
+
     },
 ]
