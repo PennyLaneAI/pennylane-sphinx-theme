@@ -1,8 +1,16 @@
-## Release 0.6.0 (development release)
+## Release 0.5.9 (development release)
+
+### Improvements
+
+* Update navbar & footer contents to be more researcher focused.
+  [(#68)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/68)
+
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
 
 ## Release 0.5.8 (current release)
 

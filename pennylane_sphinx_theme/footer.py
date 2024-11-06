@@ -36,24 +36,28 @@ FOOTER = {
             "title": "For researchers",
             "links": [
                 {
+                    "name": "Research",
+                    "href": "https://pennylane.ai/research",
+                },
+                {
                     "name": "Features",
-                    "href": "https://pennylane.ai/features/",
+                    "href": "https://pennylane.ai/features",
                 },
                 {
                     "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations/",
+                    "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
                     "name": "Datasets",
-                    "href": "https://pennylane.ai/datasets/",
+                    "href": "https://pennylane.ai/datasets",
                 },
                 {
                     "name": "Performance",
-                    "href": "https://pennylane.ai/performance/",
+                    "href": "https://pennylane.ai/performance",
                 },
                 {
                     "name": "Learn",
-                    "href": "https://pennylane.ai/qml/",
+                    "href": "https://pennylane.ai/qml",
                 },
                 {
                     "name": "Videos",
@@ -64,8 +68,8 @@ FOOTER = {
                     "href": "https://docs.pennylane.ai/",
                 },
                 {
-                    "name": "Education",
-                    "href": "https://pennylane.ai/education/",
+                    "name": "Teach",
+                    "href": "https://pennylane.ai/education",
                 },
             ],
         },
@@ -74,15 +78,15 @@ FOOTER = {
             "links": [
                 {
                     "name": "Learn",
-                    "href": "https://pennylane.ai/qml/",
+                    "href": "https://pennylane.ai/qml",
                 },
                 {
                     "name": "Codebook",
-                    "href": "https://pennylane.ai/codebook/",
+                    "href": "https://pennylane.ai/codebook",
                 },
                 {
-                    "name": "Education",
-                    "href": "https://pennylane.ai/education/",
+                    "name": "Teach",
+                    "href": "https://pennylane.ai/education",
                 },
                 {
                     "name": "Videos",
@@ -90,15 +94,15 @@ FOOTER = {
                 },
                 {
                     "name": "Challenges",
-                    "href": "https://pennylane.ai/challenges/",
+                    "href": "https://pennylane.ai/challenges",
                 },
                 {
                     "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations/",
+                    "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
                     "name": "Glossary",
-                    "href": "https://pennylane.ai/qml/glossary/",
+                    "href": "https://pennylane.ai/qml/glossary",
                 },
             ],
         },
@@ -107,11 +111,11 @@ FOOTER = {
             "links": [
                 {
                     "name": "Features",
-                    "href": "https://pennylane.ai/features/",
+                    "href": "https://pennylane.ai/features",
                 },
                 {
                     "name": "Documentation",
-                    "href": "https://docs.pennylane.ai/",
+                    "href": "https://docs.pennylane.ai",
                 },
                 {
                     "name": "API",
@@ -123,19 +127,19 @@ FOOTER = {
                 },
                 {
                     "name": "Datasets",
-                    "href": "https://pennylane.ai/datasets/",
+                    "href": "https://pennylane.ai/datasets",
                 },
                 {
                     "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations/",
+                    "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
                     "name": "Performance",
-                    "href": "https://pennylane.ai/performance/",
+                    "href": "https://pennylane.ai/performance",
                 },
                 {
                     "name": "Devices",
-                    "href": "https://pennylane.ai/plugins/",
+                    "href": "https://pennylane.ai/plugins",
                 },
                 {
                     "name": "Compilation",
