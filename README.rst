@@ -48,8 +48,7 @@ Once installed, simply add or modify the following variables of your Sphinx
     html_theme = "pennylane"
 
     html_theme_options = {
-        "navbar_name": "Example Project",
-        "navbar_active_link": 3
+        "navbar_name": "Example Project"
     }
 
 .. getting-started-end-inclusion-marker-do-not-remove
