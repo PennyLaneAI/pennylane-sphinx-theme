@@ -1,4 +1,4 @@
-## Release 0.6.0 (current release)
+## Release 0.6.1 (current release)
 
 ### Improvements
 
@@ -10,6 +10,31 @@
 This release contains contributions from (in alphabetical order):
 
 [Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.6.0 
+
+* Remove `navbar_active_link` from theme options.
+  [(#72)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/72)
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+## Release 0.5.9
+
+### Improvements
+
+* Update navbar & footer contents to be more researcher focused.
+  [(#68)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/68)
+
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
 
 ## Release 0.5.8
 

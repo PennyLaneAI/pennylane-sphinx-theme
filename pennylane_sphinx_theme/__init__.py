@@ -19,12 +19,6 @@ def setup(app):
 
     # set default left navbar links
     if "navbar_left_links" not in app.config["html_theme_options"]:
-
-        active_link = app.config["html_theme_options"].get("navbar_active_link", None)
-
-        if active_link is not None:
-            NAVBAR_LEFT[active_link]["active"] = True
-
         app.config["html_theme_options"]["navbar_left_links"] = NAVBAR_LEFT
 
     # set default right navbar links
