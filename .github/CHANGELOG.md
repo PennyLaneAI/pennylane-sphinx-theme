@@ -2,7 +2,7 @@
 
 ### Improvements
 
-* Bumped the Xanadu Sphinx Theme version to `0.6.0`.
+* Bumped the Xanadu Sphinx Theme version to `0.6.1`.
   [(#67)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/67)
 
 ### Contributors

@@ -1,5 +1,4 @@
 sphinx==4.5.0
 pillow==10.3.0
 sphinx-gallery==0.10.1
-# TODO: Replace the following line with 'xanadu-sphinx-theme==0.6.0'.
-xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme@sc-75207-pennylane-ai-search-redirect
+xanadu-sphinx-theme==0.6.1
