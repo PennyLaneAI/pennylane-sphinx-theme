@@ -1,10 +1,17 @@
-## Release 0.6.1 (development release)
+## Release 0.6.1 (current release)
+
+### Improvements
+
+* Bumped the Xanadu Sphinx Theme version to `0.6.1`.
+  [(#67)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/67)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.6.0 (current release)
+[Mikhail Andrenkov](https://github.com/Mandrenkov).
+
+## Release 0.6.0 
 
 * Remove `navbar_active_link` from theme options.
   [(#72)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/72)
