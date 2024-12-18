@@ -1,6 +1,4 @@
 sphinx==4.5.0
 pillow==10.3.0
 sphinx-gallery==0.10.1
-# Update to correct xanadu-sphinx-theme version when testing is
-# xanadu-sphinx-theme==0.6.2 -> 0.7.0
 xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme@sc-77533-search-command-palette-button-is-added-to
