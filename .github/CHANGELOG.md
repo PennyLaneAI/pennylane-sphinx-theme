@@ -2,7 +2,7 @@
 
 ### Contributors
 
-- [Alan Martin](https://github.com/alan-emartin)
+* [Alan Martin](https://github.com/alan-emartin)
 
 ### Features
 
