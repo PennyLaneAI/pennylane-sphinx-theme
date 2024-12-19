@@ -1,6 +1,13 @@
-## Release 0.7.0 (development release)
+## Release 0.7.0
 
 ### Contributors
+
+- [Alan Martin](https://github.com/alan-emartin)
+
+### Features
+
+* Configured and enabled `pennylane-command-palette`.
+  [#77](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/77)
 
 This release contains contributions from (in alphabetical order):
 
