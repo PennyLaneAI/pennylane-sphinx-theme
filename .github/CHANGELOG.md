@@ -1,8 +1,17 @@
-## Release 0.7.0
+## Release 0.7.1
 
 ### Contributors
 
 * [Alan Martin](https://github.com/alan-emartin)
+
+### Chore
+
+* Bumped the Xanadu Sphinx Theme version to `0.7.1`.
+  [#80](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/80)
+
+## Release 0.7.0
+
+### Contributors
 
 ### Features
 
