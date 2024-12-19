@@ -1,4 +1,4 @@
-## Release 0.7.0 (development release)
+## Release 0.7.0 (current release)
 
 ### Contributors
 
