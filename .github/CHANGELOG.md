@@ -1,8 +1,12 @@
-## Release 0.8.0 (development release)
+## Release 0.8.0
 
 ### Contributors
 
-This release contains contributions from (in alphabetical order):
+* [Alan Martin](https://github.com/alan-emartin)
+
+### Bug Fixes
+* Disabled the `pennylane-command-palette` because interfering hotkeys ('d', '/') from `read-the-docs` from `hotkey.js`.
+  [#82](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/82)
 
 ## Release 0.7.1
 
