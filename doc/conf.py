@@ -99,7 +99,8 @@ html_theme_options = {
     ],
     "toc_overview": True,
     "toc_global": True,
-    "relations": True
+    "relations": True,
+    "command_palette_enabled": False,
 }
 
 
