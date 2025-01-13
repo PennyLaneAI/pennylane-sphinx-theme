@@ -101,6 +101,7 @@ html_theme_options = {
     "toc_global": True,
     "relations": True,
     "command_palette_enabled": False,
+    "search_on_pennylane_ai": False
 }
 
 
