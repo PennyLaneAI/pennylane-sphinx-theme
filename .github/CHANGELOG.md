@@ -1,8 +1,14 @@
-## Release 0.9.0 (development release)
+## Release 0.9.0
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+### Bug Fixes
+* Disabled the `search_on_pennylane_ai` configuration by default so that it can be enabled selectively in docs projects.
+  [#85](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/85)
 
 ## Release 0.8.0
 
