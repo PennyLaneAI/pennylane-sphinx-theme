@@ -19,7 +19,7 @@ import re
 # -- Project information -----------------------------------------------------
 
 project = 'PennyLane Sphinx Theme'
-copyright = '2023 | Xanadu | All rights reserved'
+copyright = '2025 | Xanadu | All rights reserved'
 author = 'Xanadu Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
