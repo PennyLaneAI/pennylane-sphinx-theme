@@ -1,3 +1,16 @@
+## Release 0.9.1
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+- [Andrew Gardhouse](https://github.com/AndrewGardhouse)
+
+### Features
+
+- Update `name` in `setup.py` so the build does not use `-` in the name. This is to comply with [PEP 625](https://peps.python.org/pep-0625/), which is causing deprication warnings from PyPI
+- Update year in footer to 2025
+
 ## Release 0.9.0
 
 ### Contributors
