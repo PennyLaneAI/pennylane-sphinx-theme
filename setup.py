@@ -24,7 +24,7 @@ info = {
     "long_description": open("README.rst").read(),
     "long_description_content_type": "text/x-rst",
     "include_package_data": True,
-    "name": "pennylane_sphinx_theme",
+    "name": "pennylane-sphinx-theme",
     "packages": find_packages(where="."),
     "package_data": {"pennylane_sphinx_theme": ["static/*", "*.html", "theme.conf"]},
     "provides": ["pennylane_sphinx_theme"],
