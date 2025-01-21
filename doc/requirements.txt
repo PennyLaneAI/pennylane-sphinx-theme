@@ -11,4 +11,4 @@ sphinxcontrib-htmlhelp==2.0.1
 sphinxcontrib-serializinghtml==1.1.5
 sphinx-copybutton
 sphinx-gallery==0.10.1
-xanadu-sphinx-theme==0.7.0
+xanadu-sphinx-theme==0.8.0
