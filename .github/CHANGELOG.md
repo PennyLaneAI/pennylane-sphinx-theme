@@ -1,8 +1,14 @@
-## Release 0.12.0 (development release)
+## Release 0.12.0
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+- [Ashish Kanwar Singh](https://github.com/ashishks0522)
+
+### Features
+
+- Added links to Navbar and Footer for the new [Compilation Landing Page](https://pennylane.ai/compilation)
 
 ## Release 0.11.0
 

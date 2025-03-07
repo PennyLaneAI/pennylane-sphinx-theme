@@ -16,6 +16,10 @@ NAVBAR_LEFT = [
                 "href": "https://pennylane.ai/qml/demonstrations",
             },
             {
+                "name": "Compilation",
+                "href": "https://pennylane.ai/compilation",
+            },
+            {
                 "name": "Datasets",
                 "href": "https://pennylane.ai/datasets",
             },

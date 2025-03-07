@@ -134,6 +134,10 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
+                    "name": "Compilation",
+                    "href": "https://pennylane.ai/compilation",
+                },
+                {
                     "name": "Performance",
                     "href": "https://pennylane.ai/performance",
                 },
@@ -142,7 +146,7 @@ FOOTER = {
                     "href": "https://pennylane.ai/plugins",
                 },
                 {
-                    "name": "Compilation",
+                    "name": "Catalyst",
                     "href": "https://docs.pennylane.ai/projects/catalyst/en/latest/",
                 },
             ],
