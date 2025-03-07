@@ -139,7 +139,7 @@ FOOTER = {
                 },
                 {
                     "name": "Devices",
-                    "href": "https://pennylane.ai/plugins",
+                    "href": "https://pennylane.ai/devices",
                 },
                 {
                     "name": "Compilation",
