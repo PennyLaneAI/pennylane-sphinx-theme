@@ -48,6 +48,10 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
+                    "name": "Compilation",
+                    "href": "https://pennylane.ai/compilation",
+                },
+                {
                     "name": "Datasets",
                     "href": "https://pennylane.ai/datasets",
                 },
@@ -99,6 +103,10 @@ FOOTER = {
                 {
                     "name": "Demos",
                     "href": "https://pennylane.ai/qml/demonstrations",
+                },
+                {
+                    "name": "Compilation",
+                    "href": "https://pennylane.ai/compilation",
                 },
                 {
                     "name": "Glossary",
