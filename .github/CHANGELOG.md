@@ -1,15 +1,26 @@
+## Release 0.13.0 (development release)
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+### Features
+
+- Add links for compilation landing page in navbar and footer
+
 ## Release 0.12.0
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-- [Ashish Kanwar Singh](https://github.com/ashishks0522)
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
 
 ### Features
 
-- Added links to Navbar and Footer for the new [Compilation Landing Page](https://pennylane.ai/compilation)
-- Updated links from `/plugin` to `/devices`
+- Update `/plugins` link to `/devices` in navbar and footer.
 
 ## Release 0.11.0
 
