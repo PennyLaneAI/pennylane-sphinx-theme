@@ -25,7 +25,7 @@ NAVBAR_LEFT = [
             },
             {
                 "name": "Devices",
-                "href": "https://pennylane.ai/plugins",
+                "href": "https://pennylane.ai/devices",
             },
             {
                 "name": "Teach",

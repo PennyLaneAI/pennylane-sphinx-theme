@@ -1,8 +1,14 @@
-## Release 0.12.0 (development release)
+## Release 0.12.0
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+### Features
+
+- Update `/plugins` link to `/devices` in navbar and footer.
 
 ## Release 0.11.0
 
