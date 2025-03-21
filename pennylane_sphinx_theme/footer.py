@@ -48,6 +48,10 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
+                    "name": "Compilation",
+                    "href": "https://pennylane.ai/compilation",
+                },
+                {
                     "name": "Datasets",
                     "href": "https://pennylane.ai/datasets",
                 },
@@ -101,6 +105,10 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
+                    "name": "Compilation",
+                    "href": "https://pennylane.ai/compilation",
+                },
+                {
                     "name": "Glossary",
                     "href": "https://pennylane.ai/qml/glossary",
                 },
@@ -134,6 +142,10 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
+                    "name": "Compilation",
+                    "href": "https://pennylane.ai/compilation",
+                },
+                {
                     "name": "Performance",
                     "href": "https://pennylane.ai/performance",
                 },
@@ -142,7 +154,7 @@ FOOTER = {
                     "href": "https://pennylane.ai/devices",
                 },
                 {
-                    "name": "Compilation",
+                    "name": "Catalyst",
                     "href": "https://docs.pennylane.ai/projects/catalyst/en/latest/",
                 },
             ],
