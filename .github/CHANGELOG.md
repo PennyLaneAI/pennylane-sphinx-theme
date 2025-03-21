@@ -9,6 +9,7 @@ This release contains contributions from (in alphabetical order):
 ### Features
 
 - Added links to Navbar and Footer for the new [Compilation Landing Page](https://pennylane.ai/compilation)
+- Updated links from `/plugin` to `/devices`
 
 ## Release 0.11.0
 
