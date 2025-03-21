@@ -4,6 +4,12 @@
 
 This release contains contributions from (in alphabetical order):
 
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+### Features
+
+- Add links for compilation landing page in navbar and footer
+
 ## Release 0.12.0
 
 ### Contributors
