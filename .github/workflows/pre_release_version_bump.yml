@@ -1,7 +1,9 @@
 name: Pre-Release Version Bump
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   pre_release_version_bump:
@@ -38,4 +40,4 @@ jobs:
             to `${{ steps.versions.outputs.new_version }}`.
           commit-message: Bump version to `${{ steps.versions.outputs.new_version }}`
           branch: pre-release-version-bump
-          reviewers: ashishks0522, Alan-eMartin, doctorperceptron, josh146
+          reviewers: ashishks0522, Alan-eMartin, jontoye, AndrewGardhouse, doctorperceptron, josh146

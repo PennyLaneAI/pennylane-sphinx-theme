@@ -77,6 +77,17 @@ For more details, please see the
 
 .. directives-end-inclusion-marker-do-not-remove
 
+Release
+============
+
+.. release-start-inclusion-marker-do-not-remove
+
+- When a pull request (PR) is merged into the `master` branch, a new PR is opened from the `pre-release-version-bump` branch into `master` which aims to update the development version in the `_version.py` file. 
+- Once the pre-release PR is merged into `master`, it triggers an automatic release that bumps up the minor version of the project. 
+- Additionally, it opens a PR from `post-release-version-bump` branch, which manages the version increment after the current version has been released.
+
+.. release-end-inclusion-marker-do-not-remove
+
 Support
 =======
 
