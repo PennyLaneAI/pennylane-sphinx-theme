@@ -1,3 +1,4 @@
+# Create an automatic pre-release version bump PR on merge to master
 name: Pre-Release Version Bump
 
 on:
