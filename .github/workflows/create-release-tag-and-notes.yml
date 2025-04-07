@@ -39,5 +39,3 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${{ steps.taggerDryRun.outputs.new_tag }} --generate-notes --notes-start-tag ${{ steps.taggerDryRun.outputs.tag }}
-  
-  
