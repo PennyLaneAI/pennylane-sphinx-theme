@@ -86,12 +86,13 @@ Release
     - Don’t forget to update the ``CHANGELOG``!
     - Merge in your PR once it is approved.
 2. Prepare the PST for release.
-    - Once PR is merged it will trigger the [Pre-Release Version Bump](https://github.com/PennyLaneAI/pennylane-sphinx-theme/actions/workflows/pre_release_version_bump.yml) workflow.
+    - Once PR is merged it will trigger the `Pre-Release Version Bump <https://github.com/PennyLaneAI/pennylane-sphinx-theme/actions/workflows/pre_release_version_bump.yml>`__ workflow.
     - Adjust the release version number as necessary.
     - Merge in the ``Pre-release version bump to X.Y.Z`` PR.
 3. Release a new version of the PST.
-    - Once ``Pre-release version bump to X.Y.Z`` PR is merged in it will automatically create new release of PST
-    - And open a ``Post-release version bump to X.Y.Z`` PR that can be merged in to increment the version for next release.
+    - Once ``Pre-release version bump to X.Y.Z`` PR is merged in it will automatically create new release of PST.
+    - It will also run the `Post-Release Version Bump <https://github.com/PennyLaneAI/pennylane-sphinx-theme/actions/workflows/post_release_version_bump.yml>`__ workflow. 
+    - The workflow will open a ``Post-release version bump to X.Y.Z`` PR that can be merged in ``master`` to increment the version for next release.
 
 .. release-end-inclusion-marker-do-not-remove
 
