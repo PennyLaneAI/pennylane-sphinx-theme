@@ -82,9 +82,16 @@ Release
 
 .. release-start-inclusion-marker-do-not-remove
 
-- When a pull request (PR) is merged into the ``master`` branch, a new PR is opened from the ``pre-release-version-bump`` branch into ``master`` which aims to update the development version in the ``_version.py`` file. 
-- Once the pre-release PR is merged into ``master``, it triggers an automatic release that bumps up the minor version of the project. 
-- Additionally, it opens a PR from ``post-release-version-bump`` branch, which manages the version increment after the current version has been released.
+1. Make a PR with the desired changes to the PST (pennylane-sphinx-theme).
+    - Don’t forget to update the ``CHANGELOG``!
+2. Merge in your PR once it is approved.
+3. Prepare the PST for release.
+    - Once PR is merged it will trigger the [Pre-Release Version Bump](https://github.com/PennyLaneAI/pennylane-sphinx-theme/actions/workflows/pre_release_version_bump.yml) workflow.
+    - Adjust the release version number as necessary.
+    - Merge in the ``Pre-release version bump to X.Y.Z`` PR.
+4. Release a new version of the PST.
+    - Once ``Pre-release version bump to X.Y.Z`` PR is merged in it will automatically create new release of PST
+    - And open a ``Post-release version bump to X.Y.Z`` PR that can be merged in to increment the version for next release.
 
 .. release-end-inclusion-marker-do-not-remove
 
