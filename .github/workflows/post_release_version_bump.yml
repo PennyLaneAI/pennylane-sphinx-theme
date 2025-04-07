@@ -1,4 +1,4 @@
-# Create an automatic post-release version bump after a release.
+# Create an automatic post-release version bump PR after a release.
 name: Post-Release Version Bump
 
 on:
