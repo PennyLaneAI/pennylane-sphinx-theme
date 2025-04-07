@@ -84,12 +84,12 @@ Release
 
 1. Make a PR with the desired changes to the PST (pennylane-sphinx-theme).
     - Don’t forget to update the ``CHANGELOG``!
-2. Merge in your PR once it is approved.
-3. Prepare the PST for release.
+    - Merge in your PR once it is approved.
+2. Prepare the PST for release.
     - Once PR is merged it will trigger the [Pre-Release Version Bump](https://github.com/PennyLaneAI/pennylane-sphinx-theme/actions/workflows/pre_release_version_bump.yml) workflow.
     - Adjust the release version number as necessary.
     - Merge in the ``Pre-release version bump to X.Y.Z`` PR.
-4. Release a new version of the PST.
+3. Release a new version of the PST.
     - Once ``Pre-release version bump to X.Y.Z`` PR is merged in it will automatically create new release of PST
     - And open a ``Post-release version bump to X.Y.Z`` PR that can be merged in to increment the version for next release.
 
