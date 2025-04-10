@@ -1,10 +1,17 @@
-## Release 0.14.0 (development release)
+## Release 0.14.0 (current release)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.13.0 (current release)
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+### Features
+
+- Streamlining release process for pennylane-sphinx-theme to automatically trigger pre-release workflow and package release.
+- Added Andrew & Jon as codeowners for releases.
+
+## Release 0.13.0
 
 ### Contributors
 
