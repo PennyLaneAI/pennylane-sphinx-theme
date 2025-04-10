@@ -1,5 +1,7 @@
 # This action creates automatic release for pennylane-sphinx-theme
 # when pre-release-version-bump branch is merged into master
+name: Release
+
 on:
   pull_request:
     types:
