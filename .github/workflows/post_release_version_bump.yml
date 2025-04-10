@@ -2,9 +2,11 @@
 name: Post-Release Version Bump
 
 on:
-  release:
+  workflow_run:
+    workflows: [Release]
     types:
-      - published
+      - completed
+  workflow_dispatch:
 
 jobs:
   post_release_version_bump:
