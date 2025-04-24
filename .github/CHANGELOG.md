@@ -1,10 +1,10 @@
-## Release 0.16.0 (development release)
+## Release 0.16.0 (current release)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.15.0 (development release)
+## Release 0.15.0 (current release)
 
 ### Contributors
 
