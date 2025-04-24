@@ -1,4 +1,4 @@
-## Release 0.15.0 (current release)
+## Release 0.15.0
 
 ### Contributors
 
