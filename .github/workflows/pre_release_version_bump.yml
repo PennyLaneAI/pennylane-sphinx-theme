@@ -2,13 +2,17 @@
 name: Pre-Release Version Bump
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - master
   workflow_dispatch:
 
 jobs:
   pre_release_version_bump:
+    # Only trigger pre-release when PR other than post release is merged into main
+    if: github.event.pull_request.merged == true && github.head_ref != 'post-release-version-bump'
     runs-on: ubuntu-latest
 
     steps:
