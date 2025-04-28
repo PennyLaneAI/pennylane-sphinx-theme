@@ -1,10 +1,18 @@
 ## Release 0.16.0 (development release)
 
+### Features
+
+- Fix upload action not triggering
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.15.0 (current release)
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
+
+ ## Release 0.15.0 (current release)
+
+### Features
 
 ### Contributors
 
