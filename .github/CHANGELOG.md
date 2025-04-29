@@ -1,4 +1,16 @@
-## Release 0.16.0 (current release)
+## Release 0.17.0 (current release)
+
+### Features
+
+- Bump version of Xanadu Sphinx Theme to 0.11.0
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Andrew Gardhouse](https://github.com/AndrewGardhouse).
+
+## Release 0.16.0
 
 ### Features
 
