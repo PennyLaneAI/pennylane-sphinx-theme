@@ -1,4 +1,4 @@
-## Release 0.17.0 (current release)
+## Release 0.17.0
 
 ### Features
 
