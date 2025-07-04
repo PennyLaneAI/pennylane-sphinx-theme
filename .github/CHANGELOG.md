@@ -1,8 +1,14 @@
-## Release 0.20.0 (development release)
+## Release 0.20.0
+
+### Features
+
+- Bump version of Xanadu Sphinx Theme to 0.14.0
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522).
 
 ## Release 0.19.0
 
