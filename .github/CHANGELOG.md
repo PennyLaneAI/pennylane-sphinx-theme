@@ -3,6 +3,11 @@
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+- [Runor Agbaire](https://github.com/runora95)
+
+### Bug fixes
+
+* Fix docs right sidebar contents menu to reference doctree [(#132)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/132)
 
 ## Release 0.20.0
 
