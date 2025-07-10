@@ -7,7 +7,7 @@ This release contains contributions from (in alphabetical order):
 
 ### Bug fixes
 
-* Fix docs right sidebar contents menu to reference doctree [(#91)](https://github.com/XanaduAI/xanadu-sphinx-theme/pull/91)
+* Fix docs right sidebar contents menu to reference doctree [(#132)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/132)
 
 ## Release 0.20.0
 
