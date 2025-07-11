@@ -15,6 +15,8 @@ This release contains contributions from (in alphabetical order):
 
 * Fix docs right sidebar contents menu to reference doctree [(#132)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/132)
 
+* Fix docs right sidebar contents menu Contents header [(#136)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/136)
+
 ## Release 0.20.0
 
 ### Features

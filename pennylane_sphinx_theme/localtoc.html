@@ -2,7 +2,10 @@
 <div class="localtoc-container nano has-scrollbar">
   <div class="nano-content">
     <div id="localtoc">
-      {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
+      {% if display_toc %}
+        <h3>Contents</h3>
+        {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
+      {% endif %}
     </div>
   </div>
 </div>
