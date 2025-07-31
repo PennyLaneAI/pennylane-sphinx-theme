@@ -163,37 +163,37 @@ FOOTER = {
     "footer_social_icons": [
         {
             "name": "Twitter",
-            "icon": "bx bxl-twitter",
+            "icon": "bxl bx-twitter-x",
             "href": "https://twitter.com/PennyLaneAI",
         },
         {
             "name": "GitHub",
-            "icon": "bx bxl-github",
+            "icon": "bxl bx-github",
             "href": "https://github.com/PennyLaneAI/pennylane",
         },
         {
             "name": "Discord",
-            "icon": "bx bxl-discord",
+            "icon": "bxl bx-discord",
             "href": "https://discord.com/invite/gnySM3nrN3",
         },
         {
             "name": "LinkedIn",
-            "icon": "bx bxl-linkedin",
+            "icon": "bxl bx-linkedin",
             "href": "https://linkedin.com/company/xanaduai/",
         },
         {
             "name": "Discourse",
-            "icon": "bx bxl-discourse",
+            "icon": "bxl bx-discourse",
             "href": "https://discuss.pennylane.ai",
         },
         {
             "name": "YouTube",
-            "icon": "bx bxl-youtube",
+            "icon": "bxl bx-youtube",
             "href": "https://www.youtube.com/@pennylaneai/",
         },
         {
             "name": "Slack",
-            "icon": "bx bxl-slack",
+            "icon": "bxl bx-slack",
             "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
         },
     ],
