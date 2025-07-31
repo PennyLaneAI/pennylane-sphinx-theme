@@ -158,7 +158,7 @@ FOOTER = {
         {
             "name": "Slack",
             "icon": "bxl bx-slack",
-            "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
+            "href": "https://join.slack.com/t/xanadu-quantum/shared_invite/zt-1i8v8v49d-S76QxXm3OKCm9g0bvWvDpg",
         },
     ],
     "footer_taglines": [
