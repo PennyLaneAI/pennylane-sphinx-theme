@@ -69,7 +69,6 @@ NAVBAR_LEFT = [
     {
         "name": "Resources",
         "dropdown": [
-            
             {
                 "name": "Demos Library",
                 "href": "https://pennylane.ai/qml/demonstrations",
@@ -94,7 +93,6 @@ NAVBAR_LEFT = [
                 "name": "Educational Videos",
                 "href": "https://pennylane.ai/qml/videos",
             },
-            
         ],
     },
     {
