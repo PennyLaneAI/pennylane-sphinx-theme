@@ -126,9 +126,9 @@ FOOTER = {
     ],
     "footer_social_icons": [
         {
-            "name": "Twitter",
-            "icon": "bxl bx-twitter-x",
-            "href": "https://twitter.com/PennyLaneAI",
+            "name": "LinkedIn",
+            "icon": "bxl bx-linkedin",
+            "href": "https://linkedin.com/company/xanaduai/",
         },
         {
             "name": "GitHub",
@@ -136,29 +136,29 @@ FOOTER = {
             "href": "https://github.com/PennyLaneAI/pennylane",
         },
         {
-            "name": "Discord",
-            "icon": "bxl bx-discord",
-            "href": "https://discord.com/invite/gnySM3nrN3",
-        },
-        {
-            "name": "LinkedIn",
-            "icon": "bxl bx-linkedin",
-            "href": "https://linkedin.com/company/xanaduai/",
-        },
-        {
-            "name": "Discourse",
-            "icon": "bxl bx-discourse",
-            "href": "https://discuss.pennylane.ai",
-        },
-        {
             "name": "YouTube",
             "icon": "bxl bx-youtube",
             "href": "https://www.youtube.com/@pennylaneai/",
         },
         {
+            "name": "Twitter",
+            "icon": "bxl bx-twitter-x",
+            "href": "https://twitter.com/PennyLaneAI",
+        },
+        {
+            "name": "Discord",
+            "icon": "bxl bx-discord",
+            "href": "https://discord.com/invite/gnySM3nrN3",
+        },
+        {
             "name": "Slack",
             "icon": "bxl bx-slack",
             "href": "https://join.slack.com/t/xanadu-quantum/shared_invite/zt-1i8v8v49d-S76QxXm3OKCm9g0bvWvDpg",
+        },
+        {
+            "name": "Discourse",
+            "icon": "bxl bx-discourse",
+            "href": "https://discuss.pennylane.ai",
         },
     ],
     "footer_taglines": [
