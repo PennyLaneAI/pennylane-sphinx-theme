@@ -141,7 +141,6 @@ NAVBAR_LEFT = [
 ]
 
 
-
 NAVBAR_RIGHT = [
     {
         "name": "Install",
