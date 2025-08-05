@@ -120,6 +120,7 @@ FOOTER = {
                 {
                     "name": "GitHub",
                     "href": "https://github.com/PennyLaneAI/pennylane",
+                    "external": True,
                 },
             ],
         },
