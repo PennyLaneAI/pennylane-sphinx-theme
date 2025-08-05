@@ -7,9 +7,9 @@ FOOTER = {
         "title": "PennyLane",
         "icon": "https://assets.cloud.pennylane.ai/docs/pennylane-logo.png",
         "description": """\
-        PennyLane is an open-source software framework for quantum
-        machine learning, quantum chemistry, and quantum computing,
-        with the ability to run on all hardware. Built with ❤️ by
+        PennyLane is a cross-platform Python library for quantum computing, 
+        quantum machine learning, and quantum chemistry. Built by researchers, 
+        for research. Created with ❤️ by
         <a href="https://xanadu.ai">Xanadu</a>.
         """,
     },
