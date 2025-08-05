@@ -11,24 +11,24 @@ NAVBAR_LEFT = [
                 "href": "https://pennylane.ai/research",
             },
             {
+                "name": "Features",
+                "href": "https://pennylane.ai/features",
+            },
+            {
+                "name": "Performance",
+                "href": "https://pennylane.ai/performance",
+            },
+            {
+                "name": "Hardware & Simulators",
+                "href": "https://pennylane.ai/devices",
+            },
+            {
                 "name": "Learn",
                 "href": "https://pennylane.ai/qml",
             },
             {
                 "name": "Teach",
                 "href": "https://pennylane.ai/education",
-            },
-            {
-                "name": "Features",
-                "href": "https://pennylane.ai/features",
-            },
-            {
-                "name": "Performance & Integration",
-                "href": "https://pennylane.ai/performance",
-            },
-            {
-                "name": "Hardware & Simulators",
-                "href": "https://pennylane.ai/devices",
             },
         ],
     },
@@ -44,16 +44,16 @@ NAVBAR_LEFT = [
                 "href": "https://docs.pennylane.ai/en/stable/",
             },
             {
+                "name": "Catalyst Compilation Docs",
+                "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
+            },
+            {
                 "name": "Development Guide",
                 "href": "https://docs.pennylane.ai/en/stable/development/guide.html",
             },
             {
                 "name": "How-to Demos",
                 "href": "https://pennylane.ai/search/?contentType=DEMO&categories=how-to&sort=publication_date",
-            },
-            {
-                "name": "Compilation with Catalyst",
-                "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
             },
             {
                 "name": "API",
@@ -70,12 +70,8 @@ NAVBAR_LEFT = [
         "name": "Resources",
         "dropdown": [
             {
-                "name": "Demos Library",
+                "name": "Demos",
                 "href": "https://pennylane.ai/qml/demonstrations",
-            },
-            {
-                "name": "Codebook",
-                "href": "https://pennylane.ai/codebook",
             },
             {
                 "name": "Quantum Compilation",
@@ -86,11 +82,15 @@ NAVBAR_LEFT = [
                 "href": "https://pennylane.ai/datasets",
             },
             {
+                "name": "Codebook",
+                "href": "https://pennylane.ai/codebook",
+            },
+            {
                 "name": "Coding Challenges",
                 "href": "https://pennylane.ai/challenges",
             },
             {
-                "name": "Educational Videos",
+                "name": "Videos",
                 "href": "https://pennylane.ai/qml/videos",
             },
         ],

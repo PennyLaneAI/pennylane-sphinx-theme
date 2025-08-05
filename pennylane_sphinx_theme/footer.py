@@ -40,7 +40,15 @@ FOOTER = {
                     "href": "https://pennylane.ai/research",
                 },
                 {
-                    "name": "Demos Library",
+                    "name": "Performance",
+                    "href": "https://pennylane.ai/performance",
+                },
+                {
+                    "name": "Hardware & Simulators",
+                    "href": "https://pennylane.ai/devices",
+                },
+                {
+                    "name": "Demos",
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
@@ -51,23 +59,15 @@ FOOTER = {
                     "name": "Quantum Datasets",
                     "href": "https://pennylane.ai/datasets",
                 },
-                {
-                    "name": "Hardware & Simulators",
-                    "href": "https://pennylane.ai/devices",
-                },
-                {
-                    "name": "Performance & Integration",
-                    "href": "https://pennylane.ai/performance",
-                },
-                {
-                    "name": "Features",
-                    "href": "https://pennylane.ai/features",
-                },
             ],
         },
         {
             "title": "Learners",
             "links": [
+                {
+                    "name": "Teach",
+                    "href": "https://pennylane.ai/education",
+                },
                 {
                     "name": "Learn",
                     "href": "https://pennylane.ai/qml",
@@ -81,16 +81,12 @@ FOOTER = {
                     "href": "https://pennylane.ai/challenges",
                 },
                 {
-                    "name": "Educational Videos",
+                    "name": "Videos",
                     "href": "https://pennylane.ai/qml/videos",
                 },
                 {
                     "name": "Glossary",
                     "href": "https://pennylane.ai/qml/glossary",
-                },
-                {
-                    "name": "Teach",
-                    "href": "https://pennylane.ai/education",
                 },
             ],
         },
@@ -98,20 +94,24 @@ FOOTER = {
             "title": "Developers",
             "links": [
                 {
-                    "name": "Install",
+                    "name": "Install PennyLane",
                     "href": "https://pennylane.ai/install",
+                },
+                {
+                    "name": "Features",
+                    "href": "https://pennylane.ai/features",
                 },
                 {
                     "name": "Documentation",
                     "href": "https://docs.pennylane.ai",
                 },
                 {
-                    "name": "Development Guide",
-                    "href": "https://docs.pennylane.ai/en/stable/development/guide.html",
+                    "name": "Catalyst Compilation Docs",
+                    "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
                 },
                 {
-                    "name": "Features",
-                    "href": "https://pennylane.ai/features",
+                    "name": "Development Guide",
+                    "href": "https://docs.pennylane.ai/en/stable/development/guide.html",
                 },
                 {
                     "name": "API",
