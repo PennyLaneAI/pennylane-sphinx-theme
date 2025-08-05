@@ -125,7 +125,6 @@ FOOTER = {
             ],
         },
     ],
-    
     "footer_social_icons": [
         {
             "name": "LinkedIn",
