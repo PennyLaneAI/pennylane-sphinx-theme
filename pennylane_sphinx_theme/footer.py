@@ -33,7 +33,7 @@ FOOTER = {
     ],
     "footer_links": [
         {
-            "title": "Researchers",
+            "title": "Research",
             "links": [
                 {
                     "name": "Research",
@@ -62,7 +62,7 @@ FOOTER = {
             ],
         },
         {
-            "title": "Learners",
+            "title": "Education",
             "links": [
                 {
                     "name": "Teach",
@@ -91,7 +91,7 @@ FOOTER = {
             ],
         },
         {
-            "title": "Developers",
+            "title": "Software",
             "links": [
                 {
                     "name": "Install PennyLane",
