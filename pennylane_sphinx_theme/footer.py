@@ -1,5 +1,5 @@
 """
-This module contains the common PennyLane footer data.
+This module contains the common PennyLane footer data. 
 """
 
 FOOTER = {
