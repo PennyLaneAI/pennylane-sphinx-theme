@@ -9,6 +9,12 @@ This release contains contributions from (in alphabetical order):
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+- [Jon Toye](https://github.com/jontoye)
+
+### Features
+
+- Updates the navbar and footer links and labels
+- Replaces the old Twitter logo with the new Twitter-X logo and updates all icon references to use Boxicons v3 instead of v2 for compatibility with [xanadu-sphinx-theme update](https://github.com/XanaduAI/xanadu-sphinx-theme/pull/93)
 
 ## Release 0.21.0
 

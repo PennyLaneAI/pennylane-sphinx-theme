@@ -4,32 +4,27 @@ This module contains the common PennyLane navigation bar data.
 
 NAVBAR_LEFT = [
     {
-        "name": "Why PennyLane",
-        "href": "https://pennylane.ai/research",
+        "name": "About",
         "dropdown": [
+            {
+                "name": "Research",
+                "href": "https://pennylane.ai/research",
+            },
             {
                 "name": "Features",
                 "href": "https://pennylane.ai/features",
-            },
-            {
-                "name": "Demos",
-                "href": "https://pennylane.ai/qml/demonstrations",
-            },
-            {
-                "name": "Compilation",
-                "href": "https://pennylane.ai/compilation",
-            },
-            {
-                "name": "Datasets",
-                "href": "https://pennylane.ai/datasets",
             },
             {
                 "name": "Performance",
                 "href": "https://pennylane.ai/performance",
             },
             {
-                "name": "Devices",
+                "name": "Hardware & Simulators",
                 "href": "https://pennylane.ai/devices",
+            },
+            {
+                "name": "Learn",
+                "href": "https://pennylane.ai/qml",
             },
             {
                 "name": "Teach",
@@ -38,47 +33,27 @@ NAVBAR_LEFT = [
         ],
     },
     {
-        "name": "Getting Started",
-        "href": "https://pennylane.ai/qml",
+        "name": "Software & Documentation",
         "dropdown": [
             {
-                "name": "Install",
+                "name": "Install PennyLane",
                 "href": "https://pennylane.ai/install",
             },
             {
-                "name": "Demos",
-                "href": "https://pennylane.ai/qml/demonstrations",
+                "name": "Documentation",
+                "href": "https://docs.pennylane.ai/en/stable/",
             },
             {
-                "name": "Codebook",
-                "href": "https://pennylane.ai/codebook",
+                "name": "Catalyst Compilation Docs",
+                "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
             },
             {
-                "name": "Challenges",
-                "href": "https://pennylane.ai/challenges",
-            },
-            {
-                "name": "Support",
-                "href": "https://discuss.pennylane.ai/",
-                "external": True,
-            },
-        ],
-    },
-    {
-        "name": "Documentation",
-        "href": "https://docs.pennylane.ai/en/stable/",
-        "dropdown": [
-            {
-                "name": "How-to demos",
-                "href": "https://pennylane.ai/search/?contentType=DEMO&categories=how-to&sort=publication_date",
-            },
-            {
-                "name": "Development guide",
+                "name": "Development Guide",
                 "href": "https://docs.pennylane.ai/en/stable/development/guide.html",
             },
             {
-                "name": "Catalyst",
-                "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
+                "name": "How-to Demos",
+                "href": "https://pennylane.ai/search/?contentType=DEMO&categories=how-to&sort=publication_date",
             },
             {
                 "name": "API",
@@ -92,34 +67,74 @@ NAVBAR_LEFT = [
         ],
     },
     {
-        "name": "Ecosystem",
-        "href": "https://pennylane.ai/get-involved",
+        "name": "Resources",
+        "dropdown": [
+            {
+                "name": "Demos",
+                "href": "https://pennylane.ai/qml/demonstrations",
+            },
+            {
+                "name": "Quantum Compilation",
+                "href": "https://pennylane.ai/compilation",
+            },
+            {
+                "name": "Quantum Datasets",
+                "href": "https://pennylane.ai/datasets",
+            },
+            {
+                "name": "Codebook",
+                "href": "https://pennylane.ai/codebook",
+            },
+            {
+                "name": "Coding Challenges",
+                "href": "https://pennylane.ai/challenges",
+            },
+            {
+                "name": "Videos",
+                "href": "https://pennylane.ai/qml/videos",
+            },
+        ],
+    },
+    {
+        "name": "Topics",
+        "dropdown": [
+            {
+                "name": "Hamiltonian Simulation",
+                "href": "https://pennylane.ai/topics/hamiltonian-simulation",
+            },
+            {
+                "name": "Fault-Tolerant Quantum Computing",
+                "href": "https://pennylane.ai/topics/fault-tolerant-quantum-computing",
+            },
+            {
+                "name": "Quantum Gradients",
+                "href": "https://pennylane.ai/topics/quantum-gradients",
+            },
+        ],
+    },
+    {
+        "name": "Community & Support",
         "dropdown": [
             {
                 "name": "Blog",
                 "href": "https://pennylane.ai/blog/?page=1",
             },
             {
-                "name": "Glossary",
-                "href": "https://pennylane.ai/qml/glossary",
-            },
-            {
-                "name": "Videos",
-                "href": "https://pennylane.ai/qml/videos",
-            },
-            {
                 "name": "FAQs",
                 "href": "https://pennylane.ai/faq",
             },
             {
-                "name": "GitHub",
-                "href": "https://github.com/PennyLaneAI/pennylane",
+                "name": "Discussion Forum",
+                "href": "https://discuss.pennylane.ai/",
                 "external": True,
             },
             {
-                "name": "Support",
-                "href": "https://discuss.pennylane.ai/",
-                "external": True,
+                "name": "Submit a Demo",
+                "href": "https://pennylane.ai/qml/demos_submission",
+            },
+            {
+                "name": "Get Involved",
+                "href": "https://pennylane.ai/get-involved",
             },
         ],
     },

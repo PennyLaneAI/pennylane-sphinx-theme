@@ -7,9 +7,9 @@ FOOTER = {
         "title": "PennyLane",
         "icon": "https://assets.cloud.pennylane.ai/docs/pennylane-logo.png",
         "description": """\
-        PennyLane is an open-source software framework for quantum
-        machine learning, quantum chemistry, and quantum computing,
-        with the ability to run on all hardware. Built with ❤️ by
+        PennyLane is a cross-platform Python library for quantum computing, 
+        quantum machine learning, and quantum chemistry. Built by researchers, 
+        for research. Created with ❤️ by
         <a href="https://xanadu.ai">Xanadu</a>.
         """,
     },
@@ -33,53 +33,41 @@ FOOTER = {
     ],
     "footer_links": [
         {
-            "title": "For researchers",
+            "title": "Research",
             "links": [
                 {
                     "name": "Research",
                     "href": "https://pennylane.ai/research",
                 },
                 {
-                    "name": "Features",
-                    "href": "https://pennylane.ai/features",
+                    "name": "Performance",
+                    "href": "https://pennylane.ai/performance",
+                },
+                {
+                    "name": "Hardware & Simulators",
+                    "href": "https://pennylane.ai/devices",
                 },
                 {
                     "name": "Demos",
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
-                    "name": "Compilation",
+                    "name": "Quantum Compilation",
                     "href": "https://pennylane.ai/compilation",
                 },
                 {
-                    "name": "Datasets",
+                    "name": "Quantum Datasets",
                     "href": "https://pennylane.ai/datasets",
-                },
-                {
-                    "name": "Performance",
-                    "href": "https://pennylane.ai/performance",
-                },
-                {
-                    "name": "Learn",
-                    "href": "https://pennylane.ai/qml",
-                },
-                {
-                    "name": "Videos",
-                    "href": "https://pennylane.ai/qml/videos",
-                },
-                {
-                    "name": "Documentation",
-                    "href": "https://docs.pennylane.ai/",
-                },
-                {
-                    "name": "Teach",
-                    "href": "https://pennylane.ai/education",
                 },
             ],
         },
         {
-            "title": "For learners",
+            "title": "Education",
             "links": [
+                {
+                    "name": "Teach",
+                    "href": "https://pennylane.ai/education",
+                },
                 {
                     "name": "Learn",
                     "href": "https://pennylane.ai/qml",
@@ -89,24 +77,12 @@ FOOTER = {
                     "href": "https://pennylane.ai/codebook",
                 },
                 {
-                    "name": "Teach",
-                    "href": "https://pennylane.ai/education",
+                    "name": "Coding Challenges",
+                    "href": "https://pennylane.ai/challenges",
                 },
                 {
                     "name": "Videos",
                     "href": "https://pennylane.ai/qml/videos",
-                },
-                {
-                    "name": "Challenges",
-                    "href": "https://pennylane.ai/challenges",
-                },
-                {
-                    "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations",
-                },
-                {
-                    "name": "Compilation",
-                    "href": "https://pennylane.ai/compilation",
                 },
                 {
                     "name": "Glossary",
@@ -115,8 +91,12 @@ FOOTER = {
             ],
         },
         {
-            "title": "For developers",
+            "title": "Software",
             "links": [
+                {
+                    "name": "Install PennyLane",
+                    "href": "https://pennylane.ai/install",
+                },
                 {
                     "name": "Features",
                     "href": "https://pennylane.ai/features",
@@ -126,75 +106,60 @@ FOOTER = {
                     "href": "https://docs.pennylane.ai",
                 },
                 {
+                    "name": "Catalyst Compilation Docs",
+                    "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
+                },
+                {
+                    "name": "Development Guide",
+                    "href": "https://docs.pennylane.ai/en/stable/development/guide.html",
+                },
+                {
                     "name": "API",
                     "href": "https://docs.pennylane.ai/en/stable/code/qml.html",
                 },
                 {
                     "name": "GitHub",
                     "href": "https://github.com/PennyLaneAI/pennylane",
-                },
-                {
-                    "name": "Datasets",
-                    "href": "https://pennylane.ai/datasets",
-                },
-                {
-                    "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations",
-                },
-                {
-                    "name": "Compilation",
-                    "href": "https://pennylane.ai/compilation",
-                },
-                {
-                    "name": "Performance",
-                    "href": "https://pennylane.ai/performance",
-                },
-                {
-                    "name": "Devices",
-                    "href": "https://pennylane.ai/devices",
-                },
-                {
-                    "name": "Catalyst",
-                    "href": "https://docs.pennylane.ai/projects/catalyst/en/latest/",
+                    "external": True,
                 },
             ],
         },
     ],
     "footer_social_icons": [
         {
-            "name": "Twitter",
-            "icon": "bx bxl-twitter",
-            "href": "https://twitter.com/PennyLaneAI",
-        },
-        {
-            "name": "GitHub",
-            "icon": "bx bxl-github",
-            "href": "https://github.com/PennyLaneAI/pennylane",
-        },
-        {
-            "name": "Discord",
-            "icon": "bx bxl-discord",
-            "href": "https://discord.com/invite/gnySM3nrN3",
-        },
-        {
             "name": "LinkedIn",
-            "icon": "bx bxl-linkedin",
+            "icon": "bxl bx-linkedin",
             "href": "https://linkedin.com/company/xanaduai/",
         },
         {
-            "name": "Discourse",
-            "icon": "bx bxl-discourse",
-            "href": "https://discuss.pennylane.ai",
+            "name": "GitHub",
+            "icon": "bxl bx-github",
+            "href": "https://github.com/PennyLaneAI/pennylane",
         },
         {
             "name": "YouTube",
-            "icon": "bx bxl-youtube",
+            "icon": "bxl bx-youtube",
             "href": "https://www.youtube.com/@pennylaneai/",
         },
         {
+            "name": "Twitter",
+            "icon": "bxl bx-twitter-x",
+            "href": "https://twitter.com/PennyLaneAI",
+        },
+        {
+            "name": "Discord",
+            "icon": "bxl bx-discord",
+            "href": "https://discord.com/invite/gnySM3nrN3",
+        },
+        {
             "name": "Slack",
-            "icon": "bx bxl-slack",
-            "href": "https://xanadu-quantum.slack.com/join/shared_invite/zt-nkwn25v9-H4hituCb_PUj4idG0MhSug#/shared-invite/email",
+            "icon": "bxl bx-slack",
+            "href": "https://join.slack.com/t/xanadu-quantum/shared_invite/zt-1i8v8v49d-S76QxXm3OKCm9g0bvWvDpg",
+        },
+        {
+            "name": "Discourse",
+            "icon": "bxl bx-discourse",
+            "href": "https://discuss.pennylane.ai",
         },
     ],
     "footer_taglines": [
