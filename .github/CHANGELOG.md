@@ -1,4 +1,4 @@
-## Release 0.24.0  (current release)
+## Release 0.24.0 
 
 ### Features
 
