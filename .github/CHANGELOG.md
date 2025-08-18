@@ -1,10 +1,16 @@
-## Release 0.24.0 (development release)
+## Release 0.24.0  (current release)
+
+### Features
+
+- Update xanadu-sphinx-theme to version 0.16.0
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.23.0 (current release)
+[Ashish Kanwar Singh](https://github.com/ashishks0522)
+
+## Release 0.23.0
 
 ### Contributors
 
