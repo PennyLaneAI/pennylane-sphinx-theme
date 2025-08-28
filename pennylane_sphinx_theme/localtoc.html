@@ -2,18 +2,20 @@
 <div class="localtoc-container nano has-scrollbar">
   <div class="nano-content">
     <div id="localtoc">
-      {% if display_toc and toc.strip() %}
-        <h3>LocalContents</h3>
-        <!-- Display the local ToC for the current document if it is not empty. -->
-        {{ toc }}
-      {% elif theme_toc_subset %}
+      {% if theme_toc_subset %}
         <h3>Depth 3 Contents</h3>
         <!-- Display the ToC for a subset of the current document tree. -->
         {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
-      {% else %}
-        <h3>Depth 1Contents</h3>
+      {% elif not display_toc or not toc or not toc.strip() %}
+        <h3>Depth 1 Contents</h3>
         <!-- Display the global ToC if no local ToC is available. -->
         {{ toctree(maxdepth=1, collapse=False, includehidden=True) }}
+      {% else %}
+        {% if toc and toc.strip() %}
+          <h3>Local Contents</h3>
+          <!-- Display the local ToC for the current document if it is not empty. -->
+          {{ toc }}
+        {% endif %}
       {% endif %}
     </div>
   </div>
