@@ -8,7 +8,7 @@
         <!-- Display the ToC for a subset of the current document tree. -->
         {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
       {% else %}
-        {% if toc and toc.strip() %}
+        {% if toc and toc.strip() and toc.count('<li') >= 2 %}
           <h3>Local Contents</h3>
           <!-- Display the local ToC for the current document if it is not empty. -->
           {{ toc }}
