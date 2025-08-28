@@ -11,4 +11,4 @@ sphinxcontrib-htmlhelp==2.0.1
 sphinxcontrib-serializinghtml==1.1.5
 sphinx-copybutton
 sphinx-gallery==0.10.1
-xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@a5f8cd4a17d7b0ec6f817a91b75c7b949fb4ac5f
+xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@2db45971c406214e7987ea94887b73cd80bb4367
