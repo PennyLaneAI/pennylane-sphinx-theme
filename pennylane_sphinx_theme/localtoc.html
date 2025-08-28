@@ -2,7 +2,7 @@
 <div class="localtoc-container nano has-scrollbar">
   <div class="nano-content">
     <div id="localtoc">
-      {% if theme_toc_subset %}
+      {% if theme_toc_subset and toctree(maxdepth=3, collapse=True, includehidden=True).strip() %}
         <h3>Depth 3 Contents</h3>
         <!-- Display the ToC for a subset of the current document tree. -->
         {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
