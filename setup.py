@@ -6,7 +6,7 @@ with open("pennylane_sphinx_theme/_version.py") as f:
 
 requirements = [
     "sphinx",
-    "xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@2db45971c406214e7987ea94887b73cd80bb4367",
+    "xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@da471689e0d71223b8700be65bac3cf6e2af61da",
     # The packages below are used to generate thumbnail images.
     "pillow",
     "sphinx-gallery",
