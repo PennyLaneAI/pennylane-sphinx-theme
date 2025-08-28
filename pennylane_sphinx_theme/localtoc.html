@@ -11,9 +11,8 @@
         <!-- Display the ToC for a subset of the current document tree. -->
         {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
       {% else %}
-        <!-- If the local ToC exists, is not empty, and contains at least 2 list items -->
-        {% if toc and toc.strip() and toc.split('<ul',1)[1].split('</ul>',1)[0].count('<li') >= 2 %}
-          <!-- Display the local ToC for the current document if it is not empty. -->
+        <!-- This checks if the 'toc' (table of contents) variable exists and is not just whitespace. If so, the local table of contents will be displayed below. -->
+        {% if toc and toc.strip() %}
           {{ toc }}
         {% endif %}
       {% endif %}
