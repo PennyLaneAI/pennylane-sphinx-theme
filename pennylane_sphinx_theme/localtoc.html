@@ -1,15 +1,18 @@
+<!-- Only display the local table of contents if we are not on the search page -->
 {% if pagename != "search" %}
 <div class="localtoc-container nano has-scrollbar">
   <div class="nano-content">
     <div id="localtoc">
+      <!-- Generate the HTML for the toctree with a maximum depth of 3, collapsed, and including hidden items -->
       {% set toc_html = toctree(maxdepth=3, collapse=True, includehidden=True) %}
+      <!-- If a subset of the ToC should be shown, and the generated ToC is not empty and contains level 2 items -->
       {% if theme_toc_subset and toc_html.strip() and 'toctree-l2' in toc_html %}
-        <h3>Depth 3 Contents</h3>
+        <h3>Contents</h3>
         <!-- Display the ToC for a subset of the current document tree. -->
         {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
       {% else %}
+        <!-- If the local ToC exists, is not empty, and contains at least 2 list items -->
         {% if toc and toc.strip() and toc.split('<ul',1)[1].split('</ul>',1)[0].count('<li') >= 2 %}
-          <h3>Local Contents</h3>
           <!-- Display the local ToC for the current document if it is not empty. -->
           {{ toc }}
         {% endif %}
