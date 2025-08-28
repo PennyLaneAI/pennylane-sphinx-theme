@@ -2,14 +2,14 @@
 <div class="localtoc-container nano has-scrollbar">
   <div class="nano-content">
     <div id="localtoc">
-      {% if theme_toc_subset and toctree(maxdepth=3, collapse=True, includehidden=True).strip() %}
+      {% if theme_toc_subset and toctree(maxdepth=3, collapse=True, includehidden=False).strip() %}
         <h3>Depth 3 Contents</h3>
         <!-- Display the ToC for a subset of the current document tree. -->
-        {{ toctree(maxdepth=3, collapse=True, includehidden=True) }}
+        {{ toctree(maxdepth=3, collapse=True, includehidden=False) }}
       {% elif not display_toc or not toc or not toc.strip() %}
         <h3>Depth 1 Contents</h3>
         <!-- Display the global ToC if no local ToC is available. -->
-        {{ toctree(maxdepth=1, collapse=False, includehidden=True) }}
+        {{ toctree(maxdepth=1, collapse=False, includehidden=False) }}
       {% else %}
         {% if toc and toc.strip() %}
           <h3>Local Contents</h3>
