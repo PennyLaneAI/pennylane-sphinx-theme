@@ -1,8 +1,15 @@
-## Release 0.25.0 (development release)
+## Release 0.25.0 
+
+### Features
+
+- Update xanadu-sphinx-theme to version 0.17.0
+- Remove TOC template to fallback to XST
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522)
 
 ## Release 0.24.0 
 
