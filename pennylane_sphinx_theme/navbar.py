@@ -99,12 +99,20 @@ NAVBAR_LEFT = [
         "name": "Topics",
         "dropdown": [
             {
+                "name": "Fault-Tolerant Quantum Computing",
+                "href": "https://pennylane.ai/topics/fault-tolerant-quantum-computing",
+            },
+            {
                 "name": "Hamiltonian Simulation",
                 "href": "https://pennylane.ai/topics/hamiltonian-simulation",
             },
             {
-                "name": "Fault-Tolerant Quantum Computing",
-                "href": "https://pennylane.ai/topics/fault-tolerant-quantum-computing",
+                "name": "Quantum Hardware",
+                "href": "https://pennylane.ai/topics/quantum-hardware",
+            },
+            {
+                "name": "Quantum Machine Learning",
+                "href": "https://pennylane.ai/topics/quantum-machine-learning",
             },
             {
                 "name": "Quantum Gradients",
@@ -147,3 +155,4 @@ NAVBAR_RIGHT = [
         "href": "https://pennylane.ai/install",
     },
 ]
+
