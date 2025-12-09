@@ -155,4 +155,3 @@ NAVBAR_RIGHT = [
         "href": "https://pennylane.ai/install",
     },
 ]
-

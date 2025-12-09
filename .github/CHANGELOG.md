@@ -1,10 +1,16 @@
 ## Release 0.26.0 (development release)
 
+### Features
+
+- Updated the navbar to add new topic pages
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.25.0 
+[Josh Izaac](https://github.com/josh146)
+
+## Release 0.25.0
 
 ### Features
 
@@ -17,7 +23,7 @@ This release contains contributions from (in alphabetical order):
 
 [Ashish Kanwar Singh](https://github.com/ashishks0522)
 
-## Release 0.24.0 
+## Release 0.24.0
 
 ### Features
 
@@ -248,7 +254,7 @@ This release contains contributions from (in alphabetical order):
 
 [Mikhail Andrenkov](https://github.com/Mandrenkov).
 
-## Release 0.6.0 
+## Release 0.6.0
 
 * Remove `navbar_active_link` from theme options.
   [(#72)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/72)
