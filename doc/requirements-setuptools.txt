@@ -1,0 +1,4 @@
+# Reinstall setuptools after main deps so it is present when Sphinx runs.
+# pip may remove it when resolving/downgrading (e.g. Sphinx 7 → 4.5).
+# Required by m2r2 (pkg_resources).
+setuptools>=45

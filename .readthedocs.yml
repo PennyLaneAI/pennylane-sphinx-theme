@@ -8,6 +8,8 @@ python:
     - requirements: doc/requirements.txt
     - method: pip
       path: .
+    # Reinstall setuptools after main deps (pip may remove it when downgrading sphinx).
+    - requirements: doc/requirements-setuptools.txt
 
 build:
   os: ubuntu-22.04
