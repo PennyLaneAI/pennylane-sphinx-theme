@@ -4,6 +4,10 @@
 
 - Update navbar and footer: rename "Quantum Compilation" to "Compilation Hub" for the compilation link, and add a new "Quantum Compilation" topic page link in the navbar
 
+### Bug fixes
+
+- Fix Read the Docs build failure by adding `setuptools` to doc requirements (resolves `pkg_resources` import error when loading the m2r2 extension)
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
