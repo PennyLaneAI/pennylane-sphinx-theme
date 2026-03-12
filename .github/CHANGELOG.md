@@ -6,7 +6,7 @@
 
 ### Bug fixes
 
-- Fix Read the Docs build failure by adding `setuptools` to doc requirements (resolves `pkg_resources` import error when loading the m2r2 extension)
+- Fix Read the Docs build failure by pinning `setuptools` to \<82 in doc requirements (setuptools 82+ removed `pkg_resources`, which the m2r2 extension requires)
 
 ### Contributors
 
