@@ -1,4 +1,4 @@
-## Release 0.27.0 (development release)
+## Release 0.27.0 (current release)
 
 ### Features
 
@@ -14,7 +14,7 @@ This release contains contributions from (in alphabetical order):
 
 [Ashish Kanwar Singh](https://github.com/ashishks0522)
 
-## Release 0.26.0 (current release)
+## Release 0.26.0
 
 ### Features
 
