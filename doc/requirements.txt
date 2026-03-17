@@ -1,3 +1,5 @@
+# Pin setuptools<82: setuptools 82+ removed pkg_resources, which m2r2 needs.
+setuptools>=45,<82
 importlib-resources==5.12.0
 m2r2
 matplotlib==3.5.3
