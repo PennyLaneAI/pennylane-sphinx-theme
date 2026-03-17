@@ -1,8 +1,18 @@
 ## Release 0.27.0 (development release)
 
+### Features
+
+- Update navbar and footer: rename "Quantum Compilation" to "Compilation Hub" for the compilation link, and add a new "Quantum Compilation" topic page link in the navbar
+
+### Bug fixes
+
+- Fix Read the Docs build failure by pinning `setuptools` to \<82 in doc requirements (setuptools 82+ removed `pkg_resources`, which the m2r2 extension requires)
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522)
 
 ## Release 0.26.0 (current release)
 
