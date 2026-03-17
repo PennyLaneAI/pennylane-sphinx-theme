@@ -74,7 +74,7 @@ NAVBAR_LEFT = [
                 "href": "https://pennylane.ai/qml/demonstrations",
             },
             {
-                "name": "Quantum Compilation",
+                "name": "Compilation Hub",
                 "href": "https://pennylane.ai/compilation",
             },
             {
@@ -105,6 +105,10 @@ NAVBAR_LEFT = [
             {
                 "name": "Hamiltonian Simulation",
                 "href": "https://pennylane.ai/topics/hamiltonian-simulation",
+            },
+            {
+                "name": "Quantum Compilation",
+                "href": "https://pennylane.ai/topics/quantum-compilation",
             },
             {
                 "name": "Quantum Hardware",

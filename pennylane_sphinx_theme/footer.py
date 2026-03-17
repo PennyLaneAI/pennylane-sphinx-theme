@@ -52,7 +52,7 @@ FOOTER = {
                     "href": "https://pennylane.ai/qml/demonstrations",
                 },
                 {
-                    "name": "Quantum Compilation",
+                    "name": "Compilation Hub",
                     "href": "https://pennylane.ai/compilation",
                 },
                 {
