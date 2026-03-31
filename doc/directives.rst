@@ -18,7 +18,7 @@ Community Card
         :paper: https://example.com
         :code: https://code.com
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        An explanation of the work.
 
 
 .. community-card::
@@ -28,7 +28,7 @@ Community Card
     :paper: https://example.com
     :code: https://code.com
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    An explanation of the work.
 
 
 
