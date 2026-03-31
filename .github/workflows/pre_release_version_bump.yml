@@ -11,8 +11,8 @@ on:
 
 jobs:
   pre_release_version_bump:
-    # Only trigger pre-release when PR other than post release is merged into main
-    if: github.event.pull_request.merged == true && github.head_ref != 'post-release-version-bump'
+    # Skip automated release-maintenance branches to avoid recursive bump PRs.
+    if: github.event.pull_request.merged == true && github.head_ref != 'post-release-version-bump' && github.head_ref != 'pre-release-version-bump'
     runs-on: ubuntu-latest
 
     steps:
@@ -46,4 +46,4 @@ jobs:
             to `${{ steps.versions.outputs.new_version }}`.
           commit-message: Bump version to `${{ steps.versions.outputs.new_version }}`
           branch: pre-release-version-bump
-          reviewers: ashishks0522, Alan-eMartin, jontoye, AndrewGardhouse, doctorperceptron, josh146
+          reviewers: ashishks0522, jontoye, koeunhh
