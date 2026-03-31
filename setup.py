@@ -6,7 +6,7 @@ with open("pennylane_sphinx_theme/_version.py") as f:
 
 requirements = [
     "sphinx",
-    "xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@sc-110105-replace-all-jquery-in-xanadu-sphinx-theme-to",
+    "xanadu-sphinx-theme==0.18.0",
     # The packages below are used to generate thumbnail images.
     "pillow",
     "sphinx-gallery",
