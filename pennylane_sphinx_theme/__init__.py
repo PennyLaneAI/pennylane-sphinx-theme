@@ -26,5 +26,13 @@ def setup(app):
     _set_theme_default(app, "navbar_left_links", NAVBAR_LEFT)
     _set_theme_default(app, "navbar_right_links", NAVBAR_RIGHT)
 
-    for section in ["about", "policies", "links", "social_icons", "newsletter", "xanadu", "copyright"]:
+    for section in [
+        "about",
+        "policies",
+        "links",
+        "social_icons",
+        "newsletter",
+        "xanadu",
+        "copyright",
+    ]:
         _set_theme_default(app, f"footer_{section}", FOOTER.get(f"footer_{section}"))
