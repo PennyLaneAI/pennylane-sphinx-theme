@@ -6,12 +6,8 @@ import textwrap
 
 PENNYLANE_WEBSITE = "https://pennylane.ai"
 
-PENNYLANE_LOGO = (
-    "https://assets.cloud.pennylane.ai/pennylane_website/generic/pennylane-logo.png"
-)
-XANADU_LOGO = (
-    "https://assets.cloud.pennylane.ai/pennylane_website/generic/xanadu-logo.png"
-)
+PENNYLANE_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/pennylane-logo.png"
+XANADU_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/xanadu-logo.png"
 
 
 def _pl(path):
@@ -48,8 +44,7 @@ FOOTER = {
     },
     "footer_copyright": {
         "tensorflow_notice": (
-            "TensorFlow, the TensorFlow logo and any related marks are "
-            "trademarks of Google Inc."
+            "TensorFlow, the TensorFlow logo and any related marks are " "trademarks of Google Inc."
         ),
     },
     "footer_policies": [
