@@ -12,20 +12,19 @@ from .footer import FOOTER
 from .navbar import NAVBAR_LEFT, NAVBAR_RIGHT
 
 
+def _set_theme_default(app, key, value):
+    """Set a theme option when it is missing or empty in theme.conf."""
+    if not app.config["html_theme_options"].get(key):
+        app.config["html_theme_options"][key] = value
+
+
 def setup(app):
     """See https://www.sphinx-doc.org/en/master/extdev/appapi.html."""
     cwd = Path(__file__).resolve().parent
     app.add_html_theme("pennylane", str(cwd))
 
-    # set default left navbar links
-    if "navbar_left_links" not in app.config["html_theme_options"]:
-        app.config["html_theme_options"]["navbar_left_links"] = NAVBAR_LEFT
+    _set_theme_default(app, "navbar_left_links", NAVBAR_LEFT)
+    _set_theme_default(app, "navbar_right_links", NAVBAR_RIGHT)
 
-    # set default right navbar links
-    if "navbar_right_links" not in app.config["html_theme_options"]:
-        app.config["html_theme_options"]["navbar_right_links"] = NAVBAR_RIGHT
-
-    # set default footer sections
-    for section in ["about", "policies", "links", "social_icons", "taglines"]:
-        if f"footer_{section}" not in app.config["html_theme_options"]:
-            app.config["html_theme_options"][f"footer_{section}"] = FOOTER[f"footer_{section}"]
+    for section in ["about", "policies", "links", "social_icons", "newsletter", "xanadu", "copyright"]:
+        _set_theme_default(app, f"footer_{section}", FOOTER.get(f"footer_{section}"))
