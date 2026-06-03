@@ -82,11 +82,11 @@ FOOTER = {
                     "href": _pl("/devices"),
                 },
                 {
-                    "name": "Demos",
+                    "name": "Demos library",
                     "href": _pl("/demonstrations"),
                 },
                 {
-                    "name": "Compilation Hub",
+                    "name": "Compilation hub",
                     "href": _pl("/compilation"),
                 },
                 {
