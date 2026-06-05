@@ -95,9 +95,6 @@ todo_include_todos = False
 # PennyLane theme options (see theme.conf for more information).
 html_theme_options = {
     "navbar_name": "PennyLane Sphinx Theme",
-    "extra_copyrights": [
-        "TensorFlow, the TensorFlow logo and any related marks are trademarks of Google Inc."
-    ],
     "toc_overview": True,
     "toc_global": True,
     "relations": True,
