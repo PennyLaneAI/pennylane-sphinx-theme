@@ -1,10 +1,20 @@
-## Release 0.29.0 (development release)
+## Release 0.30.0 (development release)
 
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.28.0 (current release)
+## Release 0.29.0 (current release)
+
+### Features
+
+- Update xanadu-sphinx-theme to version 0.19.0
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+## Release 0.28.0
 
 ### Contributors
 
