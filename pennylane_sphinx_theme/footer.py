@@ -2,33 +2,67 @@
 This module contains the common PennyLane footer data.
 """
 
+import textwrap
+
+PENNYLANE_WEBSITE = "https://pennylane.ai"
+
+PENNYLANE_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/pennylane-logo.png"
+XANADU_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/xanadu-logo.png"
+
+
+def _pl(path):
+    """Return an absolute pennylane.ai URL for website paths."""
+    if path.startswith("http"):
+        return path
+    return f"{PENNYLANE_WEBSITE}{path}"
+
+
 FOOTER = {
+    "footer_newsletter": {
+        "title": "Never miss a milestone",
+        "description": "Get the latest quantum updates delivered to your inbox.",
+        "href": "https://bit.ly/4u6rEfT",
+        "cta": "Join the list",
+    },
     "footer_about": {
         "title": "PennyLane",
-        "icon": "https://assets.cloud.pennylane.ai/docs/pennylane-logo.png",
-        "description": """\
-        PennyLane is a cross-platform Python library for quantum computing, 
-        quantum machine learning, and quantum chemistry. Built by researchers, 
-        for research. Created with ❤️ by
-        <a href="https://xanadu.ai">Xanadu</a>.
-        """,
+        "icon": PENNYLANE_LOGO,
+        "href": PENNYLANE_WEBSITE,
+        "description": textwrap.dedent(
+            """\
+            PennyLane is an open-source quantum software platform for quantum computing,
+            quantum machine learning, and quantum chemistry. Create meaningful quantum
+            algorithms, from inspiration to implementation.
+            """
+        ).strip(),
+        "created_by": 'Created with ❤️ by <a href="https://xanadu.ai/">Xanadu</a>.',
+    },
+    "footer_xanadu": {
+        "title": "Xanadu",
+        "icon": XANADU_LOGO,
+        "href": "https://xanadu.ai",
+    },
+    "footer_copyright": {
+        "tensorflow_notice": (
+            "TensorFlow, the TensorFlow logo and any related marks are " "trademarks of Google Inc."
+        ),
     },
     "footer_policies": [
         {
-            "text": "Privacy Policy",
-            "href": "https://pennylane.ai/privacy",
+            "text": "Privacy policy",
+            "href": _pl("/privacy"),
         },
         {
-            "text": "Terms of Service",
-            "href": "https://pennylane.ai/terms",
+            "text": "Terms of service",
+            "href": _pl("/terms"),
         },
         {
-            "text": "Cookie Policy",
-            "href": "https://pennylane.ai/cookies",
+            "text": "Cookie policy",
+            "href": _pl("/cookies"),
         },
         {
-            "text": "Code of Conduct",
-            "href": "https://pennylane.ai/conduct",
+            "text": "Code of conduct",
+            "href": _pl("/conduct"),
         },
     ],
     "footer_links": [
@@ -37,27 +71,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Research",
-                    "href": "https://pennylane.ai/research",
+                    "href": _pl("/research"),
                 },
                 {
                     "name": "Performance",
-                    "href": "https://pennylane.ai/performance",
+                    "href": _pl("/performance"),
                 },
                 {
-                    "name": "Hardware & Simulators",
-                    "href": "https://pennylane.ai/devices",
+                    "name": "Hardware and simulators",
+                    "href": _pl("/devices"),
                 },
                 {
-                    "name": "Demos",
-                    "href": "https://pennylane.ai/qml/demonstrations",
+                    "name": "Demos library",
+                    "href": _pl("/demonstrations"),
                 },
                 {
-                    "name": "Compilation Hub",
-                    "href": "https://pennylane.ai/compilation",
+                    "name": "Compilation hub",
+                    "href": _pl("/compilation"),
                 },
                 {
-                    "name": "Quantum Datasets",
-                    "href": "https://pennylane.ai/datasets",
+                    "name": "Quantum datasets",
+                    "href": _pl("/datasets"),
                 },
             ],
         },
@@ -66,27 +100,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Teach",
-                    "href": "https://pennylane.ai/education",
+                    "href": _pl("/education"),
                 },
                 {
                     "name": "Learn",
-                    "href": "https://pennylane.ai/qml",
+                    "href": _pl("/learn"),
                 },
                 {
                     "name": "Codebook",
-                    "href": "https://pennylane.ai/codebook",
+                    "href": _pl("/codebook"),
                 },
                 {
-                    "name": "Coding Challenges",
-                    "href": "https://pennylane.ai/challenges",
+                    "name": "Coding challenges",
+                    "href": _pl("/challenges"),
                 },
                 {
                     "name": "Videos",
-                    "href": "https://pennylane.ai/qml/videos",
+                    "href": _pl("/videos"),
                 },
                 {
                     "name": "Glossary",
-                    "href": "https://pennylane.ai/qml/glossary",
+                    "href": _pl("/glossary"),
                 },
             ],
         },
@@ -94,28 +128,34 @@ FOOTER = {
             "title": "Software",
             "links": [
                 {
-                    "name": "Install PennyLane",
-                    "href": "https://pennylane.ai/install",
+                    "name": "Install",
+                    "href": _pl("/install"),
                 },
                 {
                     "name": "Features",
-                    "href": "https://pennylane.ai/features",
+                    "href": _pl("/features"),
                 },
                 {
-                    "name": "Documentation",
+                    "name": "PennyLane documentation",
                     "href": "https://docs.pennylane.ai",
                 },
                 {
-                    "name": "Catalyst Compilation Docs",
+                    "name": "Catalyst documentation",
                     "href": "https://docs.pennylane.ai/projects/catalyst/en/stable/",
                 },
                 {
-                    "name": "Development Guide",
+                    "name": "Development guide",
                     "href": "https://docs.pennylane.ai/en/stable/development/guide.html",
                 },
                 {
+                    "name": "How-to guides",
+                    "href": _pl(
+                        "/search/?contentType=DEMO&categories=how-to&sort=publication_date"
+                    ),
+                },
+                {
                     "name": "API",
-                    "href": "https://docs.pennylane.ai/en/stable/code/qml.html",
+                    "href": "https://docs.pennylane.ai/en/stable/code/qp.html",
                 },
                 {
                     "name": "GitHub",
@@ -127,45 +167,40 @@ FOOTER = {
     ],
     "footer_social_icons": [
         {
-            "name": "LinkedIn",
+            "name": "linkedin",
             "icon": "bxl bx-linkedin",
-            "href": "https://linkedin.com/company/xanaduai/",
+            "href": "https://www.linkedin.com/company/pennylaneai/",
         },
         {
-            "name": "GitHub",
+            "name": "github",
             "icon": "bxl bx-github",
             "href": "https://github.com/PennyLaneAI/pennylane",
         },
         {
-            "name": "YouTube",
+            "name": "youtube",
             "icon": "bxl bx-youtube",
             "href": "https://www.youtube.com/@pennylaneai/",
         },
         {
-            "name": "Twitter",
+            "name": "twitter",
             "icon": "bxl bx-twitter-x",
             "href": "https://twitter.com/PennyLaneAI",
         },
         {
-            "name": "Discord",
+            "name": "discord",
             "icon": "bxl bx-discord",
             "href": "https://discord.com/invite/gnySM3nrN3",
         },
         {
-            "name": "Slack",
+            "name": "slack",
             "icon": "bxl bx-slack",
             "href": "https://join.slack.com/t/xanadu-quantum/shared_invite/zt-1i8v8v49d-S76QxXm3OKCm9g0bvWvDpg",
         },
         {
-            "name": "Discourse",
+            "name": "discourse",
             "icon": "bxl bx-discourse",
             "href": "https://discuss.pennylane.ai",
         },
     ],
-    "footer_taglines": [
-        {
-            "text": "Stay updated with our newsletter",
-            "href": "https://xanadu.us17.list-manage.com/subscribe?u=725f07a1d1a4337416c3129fd&id=294b062630",
-        },
-    ],
+    "footer_taglines": [],
 }
