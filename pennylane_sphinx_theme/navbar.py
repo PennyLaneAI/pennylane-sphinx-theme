@@ -1,5 +1,9 @@
 """
 This module contains the common PennyLane navigation bar data.
+
+Icon values are Boxicons CSS classes (e.g. "bx-book-open", "bxs-flask"), since
+the theme renders icons with the Boxicons web font. Pick any icon from
+https://boxicons.com and use its class name directly.
 """
 
 WHY_PENNYLANE = {
@@ -172,7 +176,7 @@ DOCUMENTATION = {
                 "button": {
                     "text": "New in this release",
                     "variant": "secondary",
-                    "icon": "BiRightArrowAlt",
+                    "icon": "bx-right-arrow-alt",
                 },
             },
         },
@@ -191,37 +195,37 @@ RESOURCES = {
                         {
                             "name": "Codebook",
                             "href": "https://pennylane.ai/codebook",
-                            "icon": "BiBookOpen",
+                            "icon": "bx-book-open",
                             "description": "Learn quantum computing with PennyLane.",
                         },
                         {
                             "name": "Coding challenges",
                             "href": "https://pennylane.ai/challenges",
-                            "icon": "BiTrophy",
+                            "icon": "bx-trophy",
                             "description": "Test your skills with quantum coding challenges and earn badges.",
                         },
                         {
                             "name": "Videos",
                             "href": "https://pennylane.ai/videos",
-                            "icon": "BiVideo",
+                            "icon": "bx-video",
                             "description": "Sit back and explore our curated selection of expert videos.",
                         },
                         {
                             "name": "Demos library",
                             "href": "https://pennylane.ai/demonstrations",
-                            "icon": "BiSolidFlask",
+                            "icon": "bxs-flask",
                             "description": "Explore the quantum landscape with our research-level demos written by experts.",
                         },
                         {
                             "name": "Compilation hub",
                             "href": "https://pennylane.ai/compilation",
-                            "icon": "BiCodeBlock",
+                            "icon": "bx-code-block",
                             "description": "Find explanations and implementations of important quantum compilation techniques.",
                         },
                         {
                             "name": "Quantum datasets",
                             "href": "https://pennylane.ai/datasets",
-                            "icon": "BiData",
+                            "icon": "bx-data",
                             "description": "Speed up research with quantum datasets tailored for use with PennyLane.",
                         },
                     ],
@@ -268,7 +272,7 @@ TOPIC_GUIDES = {
                         {
                             "name": "Hamiltonian simulation",
                             "href": "https://pennylane.ai/topics/hamiltonian-simulation",
-                            "description": "Discover Hamiltonian simulation algorithms-from basic to advanced techniques.",
+                            "description": "Discover Hamiltonian simulation algorithms–from basic to advanced techniques.",
                         },
                         {
                             "name": "Quantum compilation",
@@ -420,7 +424,7 @@ COMMUNITY_SUPPORT = {
                     "button": {
                         "text": "Go to forum",
                         "variant": "secondary",
-                        "icon": "BiLinkExternal",
+                        "icon": "bx-link-external",
                     },
                     "href": "https://discuss.pennylane.ai",
                 },
@@ -439,7 +443,7 @@ COMMUNITY_SUPPORT = {
                     "button": {
                         "text": "Subscribe now",
                         "variant": "secondary",
-                        "icon": "BiRightArrowAlt",
+                        "icon": "bx-right-arrow-alt",
                     },
                     "href": "https://bit.ly/434uPcQ",
                     "pill": {
