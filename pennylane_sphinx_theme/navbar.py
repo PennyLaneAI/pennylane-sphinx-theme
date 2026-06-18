@@ -123,7 +123,9 @@ DOCUMENTATION = {
                         },
                         {
                             "name": "How-to guides",
-                            "href": pl("/search/?contentType=DEMO&categories=how-to&sort=publication_date"),
+                            "href": pl(
+                                "/search/?contentType=DEMO&categories=how-to&sort=publication_date"
+                            ),
                         },
                         {
                             "name": "API",
