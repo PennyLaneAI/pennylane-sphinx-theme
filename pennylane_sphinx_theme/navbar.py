@@ -6,7 +6,7 @@ the theme renders icons with the Boxicons web font. Pick any icon from
 https://boxicons.com and use its class name directly.
 """
 
-from .urls import pl
+from .urls import pl_url
 
 WHY_PENNYLANE = {
     "name": "Why PennyLane",
@@ -19,17 +19,17 @@ WHY_PENNYLANE = {
                     "items": [
                         {
                             "name": "Features",
-                            "href": pl("/features"),
+                            "href": pl_url("/features"),
                             "description": "Discover easy-to-use PennyLane features to empower your work.",
                         },
                         {
                             "name": "Performance",
-                            "href": pl("/performance"),
+                            "href": pl_url("/performance"),
                             "description": "Scale up your workflows on GPUs and supercomputers to accelerate simulations.",
                         },
                         {
                             "name": "Hardware and simulators",
-                            "href": pl("/devices"),
+                            "href": pl_url("/devices"),
                             "description": "Explore PennyLane's quantum device ecosystem with 40+ integrated options.",
                         },
                     ],
@@ -44,17 +44,17 @@ WHY_PENNYLANE = {
                     "items": [
                         {
                             "name": "Research",
-                            "href": pl("/research"),
+                            "href": pl_url("/research"),
                             "description": "Accelerate your quantum computing research breakthroughs with PennyLane.",
                         },
                         {
                             "name": "Teach",
-                            "href": pl("/education"),
+                            "href": pl_url("/education"),
                             "description": "Join quantum educators in over 150 universities using PennyLane in the classroom.",
                         },
                         {
                             "name": "Learn",
-                            "href": pl("/learn"),
+                            "href": pl_url("/learn"),
                             "description": "Delve into quantum computing, quantum chemistry, and quantum machine learning.",
                         },
                     ],
@@ -77,7 +77,7 @@ WHY_PENNYLANE = {
                         "text": "Research with PennyLane",
                         "variant": "primary",
                     },
-                    "href": pl("/research"),
+                    "href": pl_url("/research"),
                 },
                 {
                     "variant": "white",
@@ -89,7 +89,7 @@ WHY_PENNYLANE = {
                         "text": "Explore educator resources",
                         "variant": "primary",
                     },
-                    "href": pl("/education"),
+                    "href": pl_url("/education"),
                 },
             ],
         },
@@ -107,7 +107,7 @@ DOCUMENTATION = {
                     "items": [
                         {
                             "name": "Install",
-                            "href": pl("/install"),
+                            "href": pl_url("/install"),
                         },
                         {
                             "name": "PennyLane documentation",
@@ -123,7 +123,7 @@ DOCUMENTATION = {
                         },
                         {
                             "name": "How-to guides",
-                            "href": pl(
+                            "href": pl_url(
                                 "/search/?contentType=DEMO&categories=how-to&sort=publication_date"
                             ),
                         },
@@ -155,7 +155,7 @@ DOCUMENTATION = {
                         "text": "Get started",
                         "variant": "secondary",
                     },
-                    "href": pl("/codebook/pennylane-fundamentals"),
+                    "href": pl_url("/codebook/pennylane-fundamentals"),
                 },
                 {
                     "variant": "white",
@@ -198,42 +198,42 @@ RESOURCES = {
                     "items": [
                         {
                             "name": "Codebook",
-                            "href": pl("/codebook"),
+                            "href": pl_url("/codebook"),
                             "icon": "bx-book-open",
                             "description": "Learn quantum computing with PennyLane.",
                         },
                         {
                             "name": "Coding challenges",
-                            "href": pl("/challenges"),
+                            "href": pl_url("/challenges"),
                             "icon": "bx-trophy",
                             "description": "Test your skills with quantum coding challenges and earn badges.",
                         },
                         {
                             "name": "Videos",
-                            "href": pl("/videos"),
+                            "href": pl_url("/videos"),
                             "icon": "bx-video",
                             "description": "Sit back and explore our curated selection of expert videos.",
                         },
                         {
                             "name": "Demos library",
-                            "href": pl("/demonstrations"),
+                            "href": pl_url("/demonstrations"),
                             "icon": "bxs-flask",
                             "description": "Explore the quantum landscape with our research-level demos written by experts.",
                         },
                         {
                             "name": "Compilation hub",
-                            "href": pl("/compilation"),
+                            "href": pl_url("/compilation"),
                             "icon": "bx-code-block",
                             "description": "Find explanations and implementations of important quantum compilation techniques.",
                         },
                         {
                             "name": "Quantum datasets",
-                            "href": pl("/datasets"),
+                            "href": pl_url("/datasets"),
                             "icon": "bx-data",
                             "description": "Speed up research with quantum datasets tailored for use with PennyLane.",
                         },
                     ],
-                    "cta": {"text": "Browse all", "href": pl("/search")},
+                    "cta": {"text": "Browse all", "href": pl_url("/search")},
                 },
             ],
         },
@@ -244,7 +244,7 @@ RESOURCES = {
             "type": "content",
             "cta": {
                 "text": "Explore demos library",
-                "href": pl("/demonstrations"),
+                "href": pl_url("/demonstrations"),
             },
             "cards": {
                 "limit": 2,
@@ -270,21 +270,20 @@ TOPIC_GUIDES = {
                     "items": [
                         {
                             "name": "Fault-tolerant quantum computing",
-                            "href": pl("/topics/fault-tolerant-quantum-computing"),
+                            "href": pl_url("/topics/fault-tolerant-quantum-computing"),
                             "description": "Master the latest advancements in error correcting codes and FTQC.",
                         },
                         {
                             "name": "Hamiltonian simulation",
-                            "href": pl("/topics/hamiltonian-simulation"),
+                            "href": pl_url("/topics/hamiltonian-simulation"),
                             "description": "Discover Hamiltonian simulation algorithms–from basic to advanced techniques.",
                         },
                         {
                             "name": "Quantum compilation",
-                            "href": pl("/topics/quantum-compilation"),
+                            "href": pl_url("/topics/quantum-compilation"),
                             "pill": {
                                 "text": "New",
                                 "variant": "in-progress",
-                                # TODO: Update start and expiry dates
                                 "startDate": "2026-05-01",
                                 "expiryDate": "2026-07-01",
                             },
@@ -292,17 +291,17 @@ TOPIC_GUIDES = {
                         },
                         {
                             "name": "Quantum gradients",
-                            "href": pl("/topics/quantum-gradients"),
+                            "href": pl_url("/topics/quantum-gradients"),
                             "description": "Access a curated guide of the different quantum gradient methods.",
                         },
                         {
                             "name": "Quantum hardware",
-                            "href": pl("/topics/quantum-hardware"),
+                            "href": pl_url("/topics/quantum-hardware"),
                             "description": "View how the modalities stack up in the global race to build a scalable quantum computer.",
                         },
                         {
                             "name": "Quantum machine learning",
-                            "href": pl("/topics/quantum-machine-learning"),
+                            "href": pl_url("/topics/quantum-machine-learning"),
                             "description": "Learn the different flavours of quantum machine learning in this curated guide.",
                         },
                     ],
@@ -325,7 +324,7 @@ TOPIC_GUIDES = {
                         "text": "Demystify FTQC",
                         "variant": "secondary",
                     },
-                    "href": pl("/topics/fault-tolerant-quantum-computing"),
+                    "href": pl_url("/topics/fault-tolerant-quantum-computing"),
                 },
                 {
                     "variant": "white",
@@ -337,11 +336,10 @@ TOPIC_GUIDES = {
                         "text": "Explore quantum compilation",
                         "variant": "secondary",
                     },
-                    "href": pl("/topics/quantum-compilation"),
+                    "href": pl_url("/topics/quantum-compilation"),
                     "pill": {
                         "text": "New",
                         "variant": "in-progress",
-                        # TODO: Add start and expiry dates
                     },
                 },
             ],
@@ -354,7 +352,6 @@ COMMUNITY_SUPPORT = {
     "pill": {
         "text": "New",
         "variant": "info",
-        # TODO: Add start and expiry dates
     },
     "linkSections": [
         {
@@ -365,11 +362,11 @@ COMMUNITY_SUPPORT = {
                     "items": [
                         {
                             "name": "PennyLane blog",
-                            "href": pl("/blog?page=1"),
+                            "href": pl_url("/blog?page=1"),
                         },
                         {
                             "name": "FAQs",
-                            "href": pl("/faq"),
+                            "href": pl_url("/faq"),
                         },
                         {
                             "name": "Discussion forum",
@@ -377,11 +374,11 @@ COMMUNITY_SUPPORT = {
                         },
                         {
                             "name": "Submit a demo",
-                            "href": pl("/demos_submission"),
+                            "href": pl_url("/demos_submission"),
                         },
                         {
                             "name": "Get involved",
-                            "href": pl("/get-involved"),
+                            "href": pl_url("/get-involved"),
                         },
                     ],
                 },
@@ -405,7 +402,7 @@ COMMUNITY_SUPPORT = {
         {
             "header": "Latest Blog Post",
             "type": "content",
-            "cta": {"text": "View all", "href": pl("/blog?page=1")},
+            "cta": {"text": "View all", "href": pl_url("/blog?page=1")},
             "cards": {
                 "limit": 1,
                 "filters": {
@@ -453,7 +450,6 @@ COMMUNITY_SUPPORT = {
                     "pill": {
                         "text": "New",
                         "variant": "info",
-                        # TODO: Add start and expiry dates
                     },
                 },
             ],
@@ -474,6 +470,6 @@ NAVBAR_LEFT = [
 NAVBAR_RIGHT = [
     {
         "name": "Install",
-        "href": pl("/install"),
+        "href": pl_url("/install"),
     },
 ]

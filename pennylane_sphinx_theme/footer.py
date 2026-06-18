@@ -4,7 +4,7 @@ This module contains the common PennyLane footer data.
 
 import textwrap
 
-from .urls import PENNYLANE_WEBSITE, pl
+from .urls import PENNYLANE_WEBSITE, pl_url
 
 PENNYLANE_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/pennylane-logo.png"
 XANADU_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/xanadu-logo.png"
@@ -43,19 +43,19 @@ FOOTER = {
     "footer_policies": [
         {
             "text": "Privacy policy",
-            "href": pl("/privacy"),
+            "href": pl_url("/privacy"),
         },
         {
             "text": "Terms of service",
-            "href": pl("/terms"),
+            "href": pl_url("/terms"),
         },
         {
             "text": "Cookies policy",
-            "href": pl("/cookies"),
+            "href": pl_url("/cookies"),
         },
         {
             "text": "Code of conduct",
-            "href": pl("/conduct"),
+            "href": pl_url("/conduct"),
         },
     ],
     "footer_links": [
@@ -64,27 +64,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Research",
-                    "href": pl("/research"),
+                    "href": pl_url("/research"),
                 },
                 {
                     "name": "Performance",
-                    "href": pl("/performance"),
+                    "href": pl_url("/performance"),
                 },
                 {
                     "name": "Hardware and simulators",
-                    "href": pl("/devices"),
+                    "href": pl_url("/devices"),
                 },
                 {
                     "name": "Demos library",
-                    "href": pl("/demonstrations"),
+                    "href": pl_url("/demonstrations"),
                 },
                 {
                     "name": "Compilation hub",
-                    "href": pl("/compilation"),
+                    "href": pl_url("/compilation"),
                 },
                 {
                     "name": "Quantum datasets",
-                    "href": pl("/datasets"),
+                    "href": pl_url("/datasets"),
                 },
             ],
         },
@@ -93,27 +93,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Teach",
-                    "href": pl("/education"),
+                    "href": pl_url("/education"),
                 },
                 {
                     "name": "Learn",
-                    "href": pl("/learn"),
+                    "href": pl_url("/learn"),
                 },
                 {
                     "name": "Codebook",
-                    "href": pl("/codebook"),
+                    "href": pl_url("/codebook"),
                 },
                 {
                     "name": "Coding challenges",
-                    "href": pl("/challenges"),
+                    "href": pl_url("/challenges"),
                 },
                 {
                     "name": "Videos",
-                    "href": pl("/videos"),
+                    "href": pl_url("/videos"),
                 },
                 {
                     "name": "Glossary",
-                    "href": pl("/glossary"),
+                    "href": pl_url("/glossary"),
                 },
             ],
         },
@@ -122,11 +122,11 @@ FOOTER = {
             "links": [
                 {
                     "name": "Install",
-                    "href": pl("/install"),
+                    "href": pl_url("/install"),
                 },
                 {
                     "name": "Features",
-                    "href": pl("/features"),
+                    "href": pl_url("/features"),
                 },
                 {
                     "name": "PennyLane documentation",
@@ -142,7 +142,7 @@ FOOTER = {
                 },
                 {
                     "name": "How-to guides",
-                    "href": pl("/search/?contentType=DEMO&categories=how-to&sort=publication_date"),
+                    "href": pl_url("/search/?contentType=DEMO&categories=how-to&sort=publication_date"),
                 },
                 {
                     "name": "API",
