@@ -4,17 +4,10 @@ This module contains the common PennyLane footer data.
 
 import textwrap
 
-PENNYLANE_WEBSITE = "https://pennylane.ai"
+from .urls import PENNYLANE_WEBSITE, pl
 
 PENNYLANE_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/pennylane-logo.png"
 XANADU_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/xanadu-logo.png"
-
-
-def _pl(path):
-    """Return an absolute pennylane.ai URL for website paths."""
-    if path.startswith("http"):
-        return path
-    return f"{PENNYLANE_WEBSITE}{path}"
 
 
 FOOTER = {
@@ -50,19 +43,19 @@ FOOTER = {
     "footer_policies": [
         {
             "text": "Privacy policy",
-            "href": _pl("/privacy"),
+            "href": pl("/privacy"),
         },
         {
             "text": "Terms of service",
-            "href": _pl("/terms"),
+            "href": pl("/terms"),
         },
         {
-            "text": "Cookie policy",
-            "href": _pl("/cookies"),
+            "text": "Cookies policy",
+            "href": pl("/cookies"),
         },
         {
             "text": "Code of conduct",
-            "href": _pl("/conduct"),
+            "href": pl("/conduct"),
         },
     ],
     "footer_links": [
@@ -71,27 +64,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Research",
-                    "href": _pl("/research"),
+                    "href": pl("/research"),
                 },
                 {
                     "name": "Performance",
-                    "href": _pl("/performance"),
+                    "href": pl("/performance"),
                 },
                 {
                     "name": "Hardware and simulators",
-                    "href": _pl("/devices"),
+                    "href": pl("/devices"),
                 },
                 {
                     "name": "Demos library",
-                    "href": _pl("/demonstrations"),
+                    "href": pl("/demonstrations"),
                 },
                 {
                     "name": "Compilation hub",
-                    "href": _pl("/compilation"),
+                    "href": pl("/compilation"),
                 },
                 {
                     "name": "Quantum datasets",
-                    "href": _pl("/datasets"),
+                    "href": pl("/datasets"),
                 },
             ],
         },
@@ -100,27 +93,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Teach",
-                    "href": _pl("/education"),
+                    "href": pl("/education"),
                 },
                 {
                     "name": "Learn",
-                    "href": _pl("/learn"),
+                    "href": pl("/learn"),
                 },
                 {
                     "name": "Codebook",
-                    "href": _pl("/codebook"),
+                    "href": pl("/codebook"),
                 },
                 {
                     "name": "Coding challenges",
-                    "href": _pl("/challenges"),
+                    "href": pl("/challenges"),
                 },
                 {
                     "name": "Videos",
-                    "href": _pl("/videos"),
+                    "href": pl("/videos"),
                 },
                 {
                     "name": "Glossary",
-                    "href": _pl("/glossary"),
+                    "href": pl("/glossary"),
                 },
             ],
         },
@@ -129,11 +122,11 @@ FOOTER = {
             "links": [
                 {
                     "name": "Install",
-                    "href": _pl("/install"),
+                    "href": pl("/install"),
                 },
                 {
                     "name": "Features",
-                    "href": _pl("/features"),
+                    "href": pl("/features"),
                 },
                 {
                     "name": "PennyLane documentation",
@@ -149,7 +142,7 @@ FOOTER = {
                 },
                 {
                     "name": "How-to guides",
-                    "href": _pl(
+                    "href": pl(
                         "/search/?contentType=DEMO&categories=how-to&sort=publication_date"
                     ),
                 },

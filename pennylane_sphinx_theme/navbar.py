@@ -6,6 +6,8 @@ the theme renders icons with the Boxicons web font. Pick any icon from
 https://boxicons.com and use its class name directly.
 """
 
+from .urls import pl
+
 WHY_PENNYLANE = {
     "name": "Why PennyLane",
     "linkSections": [
@@ -17,17 +19,17 @@ WHY_PENNYLANE = {
                     "items": [
                         {
                             "name": "Features",
-                            "href": "https://pennylane.ai/features",
+                            "href": pl("/features"),
                             "description": "Discover easy-to-use PennyLane features to empower your work.",
                         },
                         {
                             "name": "Performance",
-                            "href": "https://pennylane.ai/performance",
+                            "href": pl("/performance"),
                             "description": "Scale up your workflows on GPUs and supercomputers to accelerate simulations.",
                         },
                         {
                             "name": "Hardware and simulators",
-                            "href": "https://pennylane.ai/devices",
+                            "href": pl("/devices"),
                             "description": "Explore PennyLane's quantum device ecosystem with 40+ integrated options.",
                         },
                     ],
@@ -42,17 +44,17 @@ WHY_PENNYLANE = {
                     "items": [
                         {
                             "name": "Research",
-                            "href": "https://pennylane.ai/research",
+                            "href": pl("/research"),
                             "description": "Accelerate your quantum computing research breakthroughs with PennyLane.",
                         },
                         {
                             "name": "Teach",
-                            "href": "https://pennylane.ai/education",
-                            "description": "Join quantum educators in over 130 universities using PennyLane in the classroom.",
+                            "href": pl("/education"),
+                            "description": "Join quantum educators in over 150 universities using PennyLane in the classroom.",
                         },
                         {
                             "name": "Learn",
-                            "href": "https://pennylane.ai/learn",
+                            "href": pl("/learn"),
                             "description": "Delve into quantum computing, quantum chemistry, and quantum machine learning.",
                         },
                     ],
@@ -75,7 +77,7 @@ WHY_PENNYLANE = {
                         "text": "Research with PennyLane",
                         "variant": "primary",
                     },
-                    "href": "https://pennylane.ai/research",
+                    "href": pl("/research"),
                 },
                 {
                     "variant": "white",
@@ -87,7 +89,7 @@ WHY_PENNYLANE = {
                         "text": "Explore educator resources",
                         "variant": "primary",
                     },
-                    "href": "https://pennylane.ai/education",
+                    "href": pl("/education"),
                 },
             ],
         },
@@ -105,7 +107,7 @@ DOCUMENTATION = {
                     "items": [
                         {
                             "name": "Install",
-                            "href": "https://pennylane.ai/install",
+                            "href": pl("/install"),
                         },
                         {
                             "name": "PennyLane documentation",
@@ -121,7 +123,7 @@ DOCUMENTATION = {
                         },
                         {
                             "name": "How-to guides",
-                            "href": "https://pennylane.ai/search/?contentType=DEMO&categories=how-to&sort=publication_date",
+                            "href": pl("/search/?contentType=DEMO&categories=how-to&sort=publication_date"),
                         },
                         {
                             "name": "API",
@@ -151,7 +153,7 @@ DOCUMENTATION = {
                         "text": "Get started",
                         "variant": "secondary",
                     },
-                    "href": "https://pennylane.ai/codebook/pennylane-fundamentals",
+                    "href": pl("/codebook/pennylane-fundamentals"),
                 },
                 {
                     "variant": "white",
@@ -194,42 +196,42 @@ RESOURCES = {
                     "items": [
                         {
                             "name": "Codebook",
-                            "href": "https://pennylane.ai/codebook",
+                            "href": pl("/codebook"),
                             "icon": "bx-book-open",
                             "description": "Learn quantum computing with PennyLane.",
                         },
                         {
                             "name": "Coding challenges",
-                            "href": "https://pennylane.ai/challenges",
+                            "href": pl("/challenges"),
                             "icon": "bx-trophy",
                             "description": "Test your skills with quantum coding challenges and earn badges.",
                         },
                         {
                             "name": "Videos",
-                            "href": "https://pennylane.ai/videos",
+                            "href": pl("/videos"),
                             "icon": "bx-video",
                             "description": "Sit back and explore our curated selection of expert videos.",
                         },
                         {
                             "name": "Demos library",
-                            "href": "https://pennylane.ai/demonstrations",
+                            "href": pl("/demonstrations"),
                             "icon": "bxs-flask",
                             "description": "Explore the quantum landscape with our research-level demos written by experts.",
                         },
                         {
                             "name": "Compilation hub",
-                            "href": "https://pennylane.ai/compilation",
+                            "href": pl("/compilation"),
                             "icon": "bx-code-block",
                             "description": "Find explanations and implementations of important quantum compilation techniques.",
                         },
                         {
                             "name": "Quantum datasets",
-                            "href": "https://pennylane.ai/datasets",
+                            "href": pl("/datasets"),
                             "icon": "bx-data",
                             "description": "Speed up research with quantum datasets tailored for use with PennyLane.",
                         },
                     ],
-                    "cta": {"text": "Browse all", "href": "https://pennylane.ai/search"},
+                    "cta": {"text": "Browse all", "href": pl("/search")},
                 },
             ],
         },
@@ -240,7 +242,7 @@ RESOURCES = {
             "type": "content",
             "cta": {
                 "text": "Explore demos library",
-                "href": "https://pennylane.ai/demonstrations",
+                "href": pl("/demonstrations"),
             },
             "cards": {
                 "limit": 2,
@@ -266,17 +268,17 @@ TOPIC_GUIDES = {
                     "items": [
                         {
                             "name": "Fault-tolerant quantum computing",
-                            "href": "https://pennylane.ai/topics/fault-tolerant-quantum-computing",
+                            "href": pl("/topics/fault-tolerant-quantum-computing"),
                             "description": "Master the latest advancements in error correcting codes and FTQC.",
                         },
                         {
                             "name": "Hamiltonian simulation",
-                            "href": "https://pennylane.ai/topics/hamiltonian-simulation",
+                            "href": pl("/topics/hamiltonian-simulation"),
                             "description": "Discover Hamiltonian simulation algorithms–from basic to advanced techniques.",
                         },
                         {
                             "name": "Quantum compilation",
-                            "href": "https://pennylane.ai/topics/quantum-compilation",
+                            "href": pl("/topics/quantum-compilation"),
                             "pill": {
                                 "text": "New",
                                 "variant": "in-progress",
@@ -288,17 +290,17 @@ TOPIC_GUIDES = {
                         },
                         {
                             "name": "Quantum gradients",
-                            "href": "https://pennylane.ai/topics/quantum-gradients",
+                            "href": pl("/topics/quantum-gradients"),
                             "description": "Access a curated guide of the different quantum gradient methods.",
                         },
                         {
                             "name": "Quantum hardware",
-                            "href": "https://pennylane.ai/topics/quantum-hardware",
+                            "href": pl("/topics/quantum-hardware"),
                             "description": "View how the modalities stack up in the global race to build a scalable quantum computer.",
                         },
                         {
                             "name": "Quantum machine learning",
-                            "href": "https://pennylane.ai/topics/quantum-machine-learning",
+                            "href": pl("/topics/quantum-machine-learning"),
                             "description": "Learn the different flavours of quantum machine learning in this curated guide.",
                         },
                     ],
@@ -321,7 +323,7 @@ TOPIC_GUIDES = {
                         "text": "Demystify FTQC",
                         "variant": "secondary",
                     },
-                    "href": "https://pennylane.ai/codebook/pennylane-fundamentals",
+                    "href": pl("/topics/fault-tolerant-quantum-computing"),
                 },
                 {
                     "variant": "white",
@@ -333,7 +335,7 @@ TOPIC_GUIDES = {
                         "text": "Explore quantum compilation",
                         "variant": "secondary",
                     },
-                    "href": "https://docs.pennylane.ai/en/stable/",
+                    "href": pl("/topics/quantum-compilation"),
                     "pill": {
                         "text": "New",
                         "variant": "in-progress",
@@ -361,11 +363,11 @@ COMMUNITY_SUPPORT = {
                     "items": [
                         {
                             "name": "PennyLane blog",
-                            "href": "https://pennylane.ai/blog?page=1",
+                            "href": pl("/blog?page=1"),
                         },
                         {
                             "name": "FAQs",
-                            "href": "https://pennylane.ai/faq",
+                            "href": pl("/faq"),
                         },
                         {
                             "name": "Discussion forum",
@@ -373,11 +375,11 @@ COMMUNITY_SUPPORT = {
                         },
                         {
                             "name": "Submit a demo",
-                            "href": "https://pennylane.ai/demos_submission",
+                            "href": pl("/demos_submission"),
                         },
                         {
                             "name": "Get involved",
-                            "href": "https://pennylane.ai/get-involved",
+                            "href": pl("/get-involved"),
                         },
                     ],
                 },
@@ -401,7 +403,7 @@ COMMUNITY_SUPPORT = {
         {
             "header": "Latest Blog Post",
             "type": "content",
-            "cta": {"text": "View all", "href": "https://pennylane.ai/blog?page=1"},
+            "cta": {"text": "View all", "href": pl("/blog?page=1")},
             "cards": {
                 "limit": 1,
                 "filters": {
@@ -470,6 +472,6 @@ NAVBAR_LEFT = [
 NAVBAR_RIGHT = [
     {
         "name": "Install",
-        "href": "https://pennylane.ai/install",
+        "href": pl("/install"),
     },
 ]
