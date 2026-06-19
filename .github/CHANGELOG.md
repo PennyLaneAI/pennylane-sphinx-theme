@@ -1,4 +1,4 @@
-## Release 0.30.0 (development release)
+## Release 0.30.0 (current release)
 
 ### Contributors
 
@@ -10,7 +10,7 @@ This release contains contributions from (in alphabetical order):
 
 - Defined the navbar content for PennyLane's new global navbar, replacing the old dropdown structure with multi-column link sections (with icons) and featured/content/latest-release cards. The rendering templates live in `xanadu-sphinx-theme`.
 
-## Release 0.29.0 (current release)
+## Release 0.29.0
 
 ### Features
 
