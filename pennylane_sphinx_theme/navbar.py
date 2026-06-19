@@ -284,8 +284,8 @@ TOPIC_GUIDES = {
                             "pill": {
                                 "text": "New",
                                 "variant": "in-progress",
-                                "startDate": "2026-05-01",
-                                "expiryDate": "2026-07-01",
+                                "startDate": "2026-06-19",
+                                "expiryDate": "2026-07-22",
                             },
                             "description": "Explore the definitive PennyLane Guide to quantum compilation techniques.",
                         },
@@ -340,6 +340,8 @@ TOPIC_GUIDES = {
                     "pill": {
                         "text": "New",
                         "variant": "in-progress",
+                        "startDate": "2026-06-19",
+                        "expiryDate": "2026-07-22",
                     },
                 },
             ],
@@ -352,6 +354,8 @@ COMMUNITY_SUPPORT = {
     "pill": {
         "text": "New",
         "variant": "info",
+        "startDate": "2026-06-19",
+        "expiryDate": "2026-08-01",
     },
     "linkSections": [
         {
@@ -450,6 +454,8 @@ COMMUNITY_SUPPORT = {
                     "pill": {
                         "text": "New",
                         "variant": "info",
+                        "startDate": "2026-06-19",
+                        "expiryDate": "2026-08-01",
                     },
                 },
             ],
