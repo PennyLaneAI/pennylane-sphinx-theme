@@ -4,17 +4,10 @@ This module contains the common PennyLane footer data.
 
 import textwrap
 
-PENNYLANE_WEBSITE = "https://pennylane.ai"
+from .urls import PENNYLANE_WEBSITE, pl_url
 
 PENNYLANE_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/pennylane-logo.png"
 XANADU_LOGO = "https://assets.cloud.pennylane.ai/pennylane_website/generic/xanadu-logo.png"
-
-
-def _pl(path):
-    """Return an absolute pennylane.ai URL for website paths."""
-    if path.startswith("http"):
-        return path
-    return f"{PENNYLANE_WEBSITE}{path}"
 
 
 FOOTER = {
@@ -50,19 +43,19 @@ FOOTER = {
     "footer_policies": [
         {
             "text": "Privacy policy",
-            "href": _pl("/privacy"),
+            "href": pl_url("/privacy"),
         },
         {
             "text": "Terms of service",
-            "href": _pl("/terms"),
+            "href": pl_url("/terms"),
         },
         {
-            "text": "Cookie policy",
-            "href": _pl("/cookies"),
+            "text": "Cookies policy",
+            "href": pl_url("/cookies"),
         },
         {
             "text": "Code of conduct",
-            "href": _pl("/conduct"),
+            "href": pl_url("/conduct"),
         },
     ],
     "footer_links": [
@@ -71,27 +64,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Research",
-                    "href": _pl("/research"),
+                    "href": pl_url("/research"),
                 },
                 {
                     "name": "Performance",
-                    "href": _pl("/performance"),
+                    "href": pl_url("/performance"),
                 },
                 {
                     "name": "Hardware and simulators",
-                    "href": _pl("/devices"),
+                    "href": pl_url("/devices"),
                 },
                 {
                     "name": "Demos library",
-                    "href": _pl("/demonstrations"),
+                    "href": pl_url("/demonstrations"),
                 },
                 {
                     "name": "Compilation hub",
-                    "href": _pl("/compilation"),
+                    "href": pl_url("/compilation"),
                 },
                 {
                     "name": "Quantum datasets",
-                    "href": _pl("/datasets"),
+                    "href": pl_url("/datasets"),
                 },
             ],
         },
@@ -100,27 +93,27 @@ FOOTER = {
             "links": [
                 {
                     "name": "Teach",
-                    "href": _pl("/education"),
+                    "href": pl_url("/education"),
                 },
                 {
                     "name": "Learn",
-                    "href": _pl("/learn"),
+                    "href": pl_url("/learn"),
                 },
                 {
                     "name": "Codebook",
-                    "href": _pl("/codebook"),
+                    "href": pl_url("/codebook"),
                 },
                 {
                     "name": "Coding challenges",
-                    "href": _pl("/challenges"),
+                    "href": pl_url("/challenges"),
                 },
                 {
                     "name": "Videos",
-                    "href": _pl("/videos"),
+                    "href": pl_url("/videos"),
                 },
                 {
                     "name": "Glossary",
-                    "href": _pl("/glossary"),
+                    "href": pl_url("/glossary"),
                 },
             ],
         },
@@ -129,11 +122,11 @@ FOOTER = {
             "links": [
                 {
                     "name": "Install",
-                    "href": _pl("/install"),
+                    "href": pl_url("/install"),
                 },
                 {
                     "name": "Features",
-                    "href": _pl("/features"),
+                    "href": pl_url("/features"),
                 },
                 {
                     "name": "PennyLane documentation",
@@ -149,8 +142,8 @@ FOOTER = {
                 },
                 {
                     "name": "How-to guides",
-                    "href": _pl(
-                        "/search/?contentType=DEMO&categories=how-to&sort=publication_date"
+                    "href": pl_url(
+                        "/search?contentType=DEMO&categories=how-to&sort=publication_date"
                     ),
                 },
                 {
