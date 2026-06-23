@@ -1,4 +1,4 @@
-## Release 0.31.0 (development release)
+## Release 0.31.0 (current release)
 
 ### Bug fixes
 
@@ -11,7 +11,7 @@ This release contains contributions from (in alphabetical order):
 
 [Koeun Lee](https://github.com/koeun-lee)
 
-## Release 0.30.0 (current release)
+## Release 0.30.0
 
 ### Contributors
 
