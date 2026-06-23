@@ -35,11 +35,6 @@ FOOTER = {
         "icon": XANADU_LOGO,
         "href": "https://xanadu.ai",
     },
-    "footer_copyright": {
-        "tensorflow_notice": (
-            "TensorFlow, the TensorFlow logo and any related marks are " "trademarks of Google Inc."
-        ),
-    },
     "footer_policies": [
         {
             "text": "Privacy policy",
