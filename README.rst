@@ -10,6 +10,13 @@ with PennyLane-specific default settings and configurations.
 To update the PennyLane navigation bar (navbar) and footer, please see the files
 ``pennylane_sphinx_theme/footer.py`` and ``pennylane_sphinx_theme/navbar.py``.
 
+To update the copy shown in the dismissible toast "coach mark" (e.g. for a
+survey or campaign promotion), please see
+``pennylane_sphinx_theme/coach_marks.py``. This copy is kept in sync by hand
+with the `portal's coach mark content
+<https://github.com/XanaduAI/pennylane.ai-react/blob/master/packages/shared-content/README.md#coach-marks>`__
+(``coach-marks.ts``) — when updating one, update the other to match.
+
 For more details, please see the
 `Xanadu Sphinx Theme documentation <https://xanadu-sphinx-theme.readthedocs.io/en/latest/>`__.
 
