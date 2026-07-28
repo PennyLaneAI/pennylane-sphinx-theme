@@ -9,6 +9,11 @@ for the source of truth and the editing workflow. When updating the toast
 copy for a campaign, update both places together.
 """
 
+# Single global switch for every site using this theme. Leave this False
+# until the QOSS survey dates below are finalized, then flip it to True to
+# launch the campaign everywhere at once.
+COACH_MARK_ENABLED = False
+
 # pylint: disable=fixme
 # TODO: before launch, replace the placeholder survey `href` below with the
 # real QOSS survey link, and replace "Date XX, 2026" in `body` with the
