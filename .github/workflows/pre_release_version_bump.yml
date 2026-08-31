@@ -13,7 +13,7 @@ jobs:
   pre_release_version_bump:
     # Skip automated release-maintenance branches to avoid recursive bump PRs.
     if: github.event.pull_request.merged == true && github.head_ref != 'post-release-version-bump' && github.head_ref != 'pre-release-version-bump'
-    runs-on: ubuntu-latest
+    runs-on: pl-2-core-gh-runner
 
     steps:
       - uses: actions/checkout@v2

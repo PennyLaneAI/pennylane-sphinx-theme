@@ -8,7 +8,7 @@ on:
 
 jobs:
   post_release_version_bump:
-    runs-on: ubuntu-latest
+    runs-on: pl-2-core-gh-runner
 
     steps:
       - uses: actions/checkout@v2
