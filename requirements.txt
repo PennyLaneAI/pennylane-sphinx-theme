@@ -1,4 +1,5 @@
 sphinx==4.5.0
 pillow==10.3.0
 sphinx-gallery==0.10.1
-xanadu-sphinx-theme==0.21.0
+# Temporary: unpublished XST branch for this PR. Revert to ==0.22.0 after release.
+xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@sc-125395-add-qoss-survey-toast-coach-mark-to-sphinx
