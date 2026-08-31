@@ -8,7 +8,7 @@ from pathlib import Path
 from xanadu_sphinx_theme import templates_dir
 
 from ._version import __version__
-from .coach_marks import COACH_MARK_ENABLED, COACH_MARK_TOAST
+from .coach_marks import COACH_MARK_TOAST
 from .footer import FOOTER
 from .navbar import NAVBAR_LEFT, NAVBAR_RIGHT
 
@@ -27,9 +27,9 @@ def setup(app):
     _set_theme_default(app, "navbar_left_links", NAVBAR_LEFT)
     _set_theme_default(app, "navbar_right_links", NAVBAR_RIGHT)
 
-    # Single global toggle: flip COACH_MARK_ENABLED in coach_marks.py to
-    # launch the campaign on every site using this theme at once.
-    _set_theme_default(app, "coach_mark_enabled", COACH_MARK_ENABLED)
+    # Launch switch lives on COACH_MARK_TOAST["enabled"] so it stays in
+    # sync with the portal toast config.
+    _set_theme_default(app, "coach_mark_enabled", COACH_MARK_TOAST["enabled"])
     _set_theme_default(app, "coach_mark_toast", COACH_MARK_TOAST)
 
     for section in [
