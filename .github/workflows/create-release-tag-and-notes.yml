@@ -13,7 +13,7 @@ jobs:
     Minor:
       # Only trigger automatic release when pre-release branch in merged into main
       if: github.event.pull_request.merged == true && github.head_ref == 'pre-release-version-bump'
-      runs-on: ubuntu-latest
+      runs-on: pl-2-core-gh-runner
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       steps:

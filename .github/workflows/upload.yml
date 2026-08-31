@@ -5,7 +5,7 @@ on:
 
 jobs:
   upload:
-    runs-on: ubuntu-latest
+    runs-on: pl-2-core-gh-runner
 
     steps:
       - uses: actions/checkout@v2
