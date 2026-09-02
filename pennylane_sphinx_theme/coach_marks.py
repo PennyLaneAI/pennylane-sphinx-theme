@@ -14,7 +14,7 @@ copy for a campaign, update both places together.
 # the real QOSS survey link, and replace "Date XX, 2026" in `body` with
 # the actual survey end date.
 COACH_MARK_TOAST = {
-    "enabled": True,
+    "enabled": False,
     "title": "The QOSS 2026 Survey",
     "body": [
         "Take the Unitary Foundation's ",
