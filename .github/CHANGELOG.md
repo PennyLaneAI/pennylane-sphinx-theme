@@ -11,7 +11,7 @@
 
 ### Improvements
 
-- Update xanadu-sphinx-theme to version 0.23.0
+- Update xanadu-sphinx-theme to version 0.24.0
 
 ### Contributors
 
