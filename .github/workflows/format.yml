@@ -7,7 +7,7 @@ on:
 
 jobs:
   format:
-    runs-on: ubuntu-latest
+    runs-on: pl-2-core-gh-runner
 
     steps:
       - name: Set up Python
