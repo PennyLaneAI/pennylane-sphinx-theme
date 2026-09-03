@@ -13,5 +13,4 @@ sphinxcontrib-htmlhelp==2.0.1
 sphinxcontrib-serializinghtml==1.1.5
 sphinx-copybutton
 sphinx-gallery==0.10.1
-# Temporary: unpublished XST branch for this PR. Revert to ==0.22.0 after release.
-xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@sc-125395-add-qoss-survey-toast-coach-mark-to-sphinx
+xanadu-sphinx-theme==0.23.0

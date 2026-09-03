@@ -6,9 +6,7 @@ with open("pennylane_sphinx_theme/_version.py") as f:
 
 requirements = [
     "sphinx",
-    # Temporary: use the unpublished XST branch for this PR. Revert to
-    # xanadu-sphinx-theme==0.22.0 after that theme is released.
-    "xanadu-sphinx-theme @ git+https://github.com/XanaduAI/xanadu-sphinx-theme.git@sc-125395-add-qoss-survey-toast-coach-mark-to-sphinx",
+    "xanadu-sphinx-theme==0.23.0",
     # The packages below are used to generate thumbnail images.
     "pillow",
     "sphinx-gallery",
