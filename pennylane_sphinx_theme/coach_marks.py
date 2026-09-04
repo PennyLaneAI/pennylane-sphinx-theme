@@ -11,22 +11,21 @@ copy for a campaign, update both places together.
 
 # pylint: disable=fixme
 # TODO: before launch, replace the placeholder survey `href` below with
-# the real QOSS survey link, and replace "Date XX, 2026" in `body` with
-# the actual survey end date.
+# the real QOSS survey link.
 COACH_MARK_TOAST = {
-    "enabled": False,
-    "title": "The QOSS 2026 Survey",
+    "enabled": True,
+    "title": "Have your say!",
     "body": [
-        "Take the Unitary Foundation's ",
+        "Enjoying PennyLane? Take the ",
         {
             "type": "link",
-            "text": "(QOSS) Survey",
+            "text": "2026 Unitary Foundation Quantum Open Source Software Survey",
             # TODO: Update to the real QOSS survey link.
             "href": "https://unitary.foundation",
             "gaLabel": "toast_qoss_survey",
             "isExternal": True,
         },
-        " for a chance to win prizes. Live until Date XX, 2026!",
+        " now.",
     ],
     "icon": "megaphone",
     "delayMs": 3000,
