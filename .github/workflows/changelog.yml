@@ -8,19 +8,42 @@ on:
 jobs:
   remind:
     runs-on: pl-2-core-gh-runner
+    if: ${{ !github.event.pull_request.draft }}
+    permissions:
+      contents: read
+      pull-requests: write
 
     steps:
     - uses: actions/checkout@v4
 
     - name: Changelog Reminder
-      uses: peterjgrainger/action-changelog-reminder@v1.3.0
+      uses: actions/github-script@v8
       with:
-        changelog_regex: .github/CHANGELOG.md
-        customPrMessage: |
-          Hello. You may have forgotten to update the changelog!
-          Please edit [.github/CHANGELOG.md](/PennyLaneAI/pennylane-sphinx-theme/blob/master/.github/CHANGELOG.md) with:
-          * A one-to-two sentence description of the change. You may include a small working example for new features.
-          * A link back to this PR.
-          * Your name and GitHub username in the contributors section.
-      env:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        script: |
+          const changelogPath = '.github/CHANGELOG.md';
+          const { owner, repo } = context.repo;
+          const pull_number = context.payload.pull_request.number;
+
+          const files = await github.paginate(github.rest.pulls.listFiles, {
+            owner,
+            repo,
+            pull_number,
+            per_page: 100,
+          });
+
+          if (files.some((file) => file.filename === changelogPath)) {
+            return;
+          }
+
+          await github.rest.issues.createComment({
+            owner,
+            repo,
+            issue_number: pull_number,
+            body: [
+              'Hello. You may have forgotten to update the changelog!',
+              'Please edit [.github/CHANGELOG.md](/PennyLaneAI/pennylane-sphinx-theme/blob/master/.github/CHANGELOG.md) with:',
+              '* A one-to-two sentence description of the change. You may include a small working example for new features.',
+              '* A link back to this PR.',
+              '* Your name and GitHub username in the contributors section.',
+            ].join('\n'),
+          });
