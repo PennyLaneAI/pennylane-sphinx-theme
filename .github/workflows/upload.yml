@@ -6,6 +6,12 @@ on:
 jobs:
   upload:
     runs-on: pl-2-core-gh-runner
+    environment:
+      name: pypi
+      url: https://pypi.org/p/pennylane-sphinx-theme
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
@@ -26,5 +32,3 @@ jobs:
 
       - name: Upload to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          password: ${{ secrets.PYPI }}
