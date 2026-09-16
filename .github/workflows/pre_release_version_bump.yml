@@ -16,7 +16,7 @@ jobs:
     runs-on: pl-2-core-gh-runner
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Derive versions
         id: versions
