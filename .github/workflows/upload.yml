@@ -8,10 +8,10 @@ jobs:
     runs-on: pl-2-core-gh-runner
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: 3.8
 
@@ -25,7 +25,6 @@ jobs:
         run: make install dist wheel
 
       - name: Upload to PyPI
-        uses: pypa/gh-action-pypi-publish@master
+        uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          user: __token__
           password: ${{ secrets.PYPI }}
