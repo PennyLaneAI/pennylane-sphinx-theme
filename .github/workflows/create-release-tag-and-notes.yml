@@ -8,11 +8,12 @@ on:
       - closed
     branches:
       - master
-  
+  workflow_dispatch:
+
 jobs:
     Minor:
-      # Only trigger automatic release when pre-release branch in merged into main
-      if: github.event.pull_request.merged == true && github.head_ref == 'pre-release-version-bump'
+      # Automatic release on pre-release merge, or when run manually from Actions.
+      if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true && github.head_ref == 'pre-release-version-bump')
       runs-on: pl-2-core-gh-runner
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
