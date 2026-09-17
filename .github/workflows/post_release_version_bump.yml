@@ -11,7 +11,7 @@ jobs:
     runs-on: pl-2-core-gh-runner
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Derive versions
         id: versions
@@ -41,7 +41,7 @@ jobs:
           printf '%s\n%s\n' "$header" "$(cat .github/CHANGELOG.md)" > .github/CHANGELOG.md
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v7
         with:
           base: master
           title: Post-release version bump to `${{ steps.versions.outputs.new_version }}`
