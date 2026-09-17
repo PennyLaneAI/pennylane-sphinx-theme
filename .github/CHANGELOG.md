@@ -1,4 +1,4 @@
-## Release 0.32.0 (development release)
+## Release 0.32.0 (current release)
 
 ### Improvements
 
@@ -11,7 +11,7 @@ This release contains contributions from (in alphabetical order):
 
 [Ashish Kanwar Singh](https://github.com/ashishks0522)
 
-## Release 0.31.0 (current release)
+## Release 0.31.0
 
 ### Bug fixes
 
