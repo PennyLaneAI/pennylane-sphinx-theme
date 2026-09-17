@@ -32,9 +32,9 @@ jobs:
       - name: echo new tag
         run: |
           echo "The next tag version will be: ${{ steps.taggerDryRun.outputs.new_tag }}"
-      - name: echo tag
+      - name: echo old tag
         run: |
-          echo "The current tag is: ${{ steps.taggerDryRun.outputs.tag }}"
+          echo "The previous tag is: ${{ steps.taggerDryRun.outputs.old_tag }}"
       - name: echo part
         run: |
           echo "The version increment was: ${{ steps.taggerDryRun.outputs.part }}"
@@ -42,7 +42,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ steps.taggerDryRun.outputs.new_tag }} --generate-notes --notes-start-tag ${{ steps.taggerDryRun.outputs.tag }}
+          gh release create ${{ steps.taggerDryRun.outputs.new_tag }} --generate-notes --notes-start-tag ${{ steps.taggerDryRun.outputs.old_tag }}
 
       - name: Trigger Post Release Workflow
         uses: peter-evans/repository-dispatch@v4
