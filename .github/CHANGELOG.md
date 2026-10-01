@@ -1,5 +1,18 @@
 ## Release 0.33.0 (development release)
 
+### Features
+
+- Added a dismissible toast coach mark for time-boxed campaigns (e.g. the QOSS
+  survey). Copy, icon, delay, and in-body links live in
+  `pennylane_sphinx_theme/coach_marks.py` and should be kept in sync with the
+  portal's shared coach-mark content. A single `enabled` flag on that config
+  turns the toast on or off for all PennyLane Sphinx docs. Rendering is provided
+  by `xanadu-sphinx-theme`.
+
+### Improvements
+
+- Update xanadu-sphinx-theme to version 0.25.0
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
