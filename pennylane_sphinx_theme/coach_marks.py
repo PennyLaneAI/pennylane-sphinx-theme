@@ -9,9 +9,6 @@ for the source of truth and the editing workflow. When updating the toast
 copy for a campaign, update both places together.
 """
 
-# pylint: disable=fixme
-# TODO: before launch, replace the placeholder survey `href` below with
-# the real QOSS survey link.
 COACH_MARK_TOAST = {
     "enabled": True,
     "title": "Have your say!",
@@ -20,14 +17,14 @@ COACH_MARK_TOAST = {
         {
             "type": "link",
             "text": "2026 Unitary Foundation Quantum Open Source Software Survey",
-            # TODO: Update to the real QOSS survey link.
-            "href": "https://unitary.foundation",
-            "gaLabel": "toast_qoss_survey",
+            "href": "https://www.surveymonkey.com/r/QOSSSurvey26",
+            "gaLabel": "qoss_survey",
             "isExternal": True,
         },
         " now.",
     ],
     "icon": "megaphone",
     "delayMs": 3000,
+    # October 30, 2026 at 9:00 AM ET
+    "expiryDateTime": "2026-10-30T13:00:00Z",
 }
-# pylint: enable=fixme
