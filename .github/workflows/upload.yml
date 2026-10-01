@@ -6,14 +6,20 @@ on:
 jobs:
   upload:
     runs-on: pl-2-core-gh-runner
+    environment:
+      name: pypi
+      url: https://pypi.org/p/pennylane-sphinx-theme
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
@@ -25,7 +31,4 @@ jobs:
         run: make install dist wheel
 
       - name: Upload to PyPI
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          user: __token__
-          password: ${{ secrets.PYPI }}
+        uses: pypa/gh-action-pypi-publish@release/v1

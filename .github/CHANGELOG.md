@@ -1,4 +1,4 @@
-## Release 0.32.0 (development release)
+## Release 0.33.0 (development release)
 
 ### Features
 
@@ -17,9 +17,20 @@
 
 This release contains contributions from (in alphabetical order):
 
-[Koeun Lee](https://github.com/koeun-lee)
+## Release 0.32.0 (current release)
 
-## Release 0.31.0 (current release)
+### Improvements
+
+- Modernize GitHub Actions workflows (checkout, setup-python, release helpers) and switch PyPI uploads to Trusted Publishing (OIDC).
+  [(#179)](https://github.com/PennyLaneAI/pennylane-sphinx-theme/pull/179)
+
+### Contributors
+
+This release contains contributions from (in alphabetical order):
+
+[Ashish Kanwar Singh](https://github.com/ashishks0522)
+
+## Release 0.31.0
 
 ### Bug fixes
 
