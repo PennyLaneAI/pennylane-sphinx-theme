@@ -1,4 +1,4 @@
-## Release 0.33.0 (development release)
+## Release 0.33.0 (current release)
 
 ### Features
 
@@ -17,7 +17,7 @@
 
 This release contains contributions from (in alphabetical order):
 
-## Release 0.32.0 (current release)
+## Release 0.32.0
 
 ### Improvements
 
