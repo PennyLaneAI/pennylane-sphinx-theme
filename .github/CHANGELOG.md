@@ -1,5 +1,9 @@
 ## Release 0.34.0 (development release)
 
+### Improvements
+
+- Update xanadu-sphinx-theme to version 0.26.0
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
