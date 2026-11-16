@@ -6,3 +6,96 @@
   {{ super() }}
 {%- endblock %}
 
+{#- Announcement banner, enabled per project/version via the
+    `announcement_banner` theme option in the consuming project's conf.py:
+
+        html_theme_options = {
+            "announcement_banner": {
+                "badge": "New",                  # optional pill before the text
+                "text": "Something big is coming.",
+                "link_text": "Learn more",       # optional, defaults to href
+                "href": "https://example.com",   # optional
+            },
+        }
+
+    A plain string is also accepted and is shown as the banner text. Nothing is
+    rendered when the option is unset. #}
+{%- block header -%}
+  {%- set banner = theme_announcement_banner %}
+  {%- if banner %}
+  {%- if banner is string %}{% set banner = {"text": banner} %}{% endif %}
+  {#- The inherited navbar is `position: fixed; top: 0`, and several other
+      fixed elements hard-code offsets that assume a 50px navbar at the top of
+      the viewport. Pin the banner above the navbar and shift those offsets
+      down by the banner height. #}
+  <style>
+    :root { --pl-announcement-banner-height: 42px; }
+    .pennylane-announcement-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--pl-announcement-banner-height);
+      line-height: var(--pl-announcement-banner-height);
+      z-index: 10001;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      padding: 0 16px;
+      box-sizing: border-box;
+      background: #0074E0;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    .pennylane-announcement-banner__badge {
+      display: inline-block;
+      margin-right: 6px;
+      padding: 0 8px;
+      border-radius: 999px;
+      background: #FFFFFF;
+      color: #0074E0;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      line-height: 20px;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+    .pennylane-announcement-banner__link,
+    .pennylane-announcement-banner__link:visited {
+      color: #FFFFFF;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .pennylane-announcement-banner__link:hover,
+    .pennylane-announcement-banner__link:focus-visible {
+      color: #FFFFFF;
+      text-decoration-thickness: 2px;
+    }
+    nav { top: var(--pl-announcement-banner-height); }
+    .container-wrapper { margin-top: calc(50px + var(--pl-announcement-banner-height)); }
+    #left-column {
+      height: calc(100% - 50px - var(--pl-announcement-banner-height));
+      min-height: calc(100% - 50px - var(--pl-announcement-banner-height));
+    }
+    .localtoc-container { top: calc(120px + var(--pl-announcement-banner-height)); }
+    .up-button { top: calc(132px + var(--pl-announcement-banner-height)); }
+    .navbar-mega-menu { top: calc(50px + var(--pl-announcement-banner-height)); }
+    .mobile.navbar-links { top: calc(54px + var(--pl-announcement-banner-height)); }
+    div.body>div>span,
+    .section>span { top: calc(-40px - var(--pl-announcement-banner-height)); }
+    @media screen and (max-width: 950px) {
+      .container-wrapper { margin-top: calc(54px + var(--pl-announcement-banner-height)); }
+    }
+  </style>
+  <div class="pennylane-announcement-banner" role="region" aria-label="Announcement">
+    {% if banner.badge %}<span class="pennylane-announcement-banner__badge">{{ banner.badge|e }}</span>{% endif %}
+    {% if banner.text %}<span class="pennylane-announcement-banner__text">{{ banner.text|e }}</span>{% endif %}
+    {% if banner.href %}<a class="pennylane-announcement-banner__link" href="{{ banner.href|e }}">{{ (banner.link_text or banner.href)|e }}</a>{% endif %}
+  </div>
+  {%- endif %}
+  {{ super() }}
+{%- endblock %}
