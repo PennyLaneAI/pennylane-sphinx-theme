@@ -1,8 +1,15 @@
 ## Release 0.35.0 (development release)
 
+### Features
+
+- Add an `announcement_banner` theme option that pins a banner, with an optional badge and link,
+  above the navigation bar. The banner is hidden unless the option is set.
+
 ### Contributors
 
 This release contains contributions from (in alphabetical order):
+
+Isaac De Vlugt
 
 ## Release 0.34.0 (current release)
 
